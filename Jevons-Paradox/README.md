@@ -1,4 +1,4 @@
-#Jevon's Paradox today
+# Jevon's Paradox today
 
 *This piece was originally published on on the now-defunct blog, Questionable Economics. It is included here as part of a selection of my favorite posts from that site.*
 
@@ -44,7 +44,9 @@ If we stylize these facts, we can get a rough estimate of the degree to which in
  
 That a 10% increase in fuel efficiency results in anything less than a 10% decrease in fuel consumption tells us that Jevons was at least partially correct: if gasoline or bituminous coal become more affordable, more of it will be consumed. Whether the magnitude of this demand rebound is greater than savings due to increased efficiency is a function of many factors such as preferences and the availability of close substitutes.
 
-Increases in efficiency are not pointless. The benefits of getting more out of less are self-evident, but they do not address fundamental problems. Resources like coal and gasoline have large, unrealized social costs and their rate of consumption is disproportionately skewed towards the present. These market failures persist regardless of how efficiently a resource can be used.
+## Increases in efficiency are not everything
+
+The benefits of getting more out of less are self-evident, but they do not address fundamental problems. Resources like coal and gasoline have large, unrealized social costs and their rate of consumption is disproportionately skewed towards the present. These market failures persist regardless of how efficiently a resource can be used.
 
 What does help is legislation designed to correct specific market failures. These laws attempt to ensure that full social costs of any resource are explicitly allocated to those producing and consuming resources, rather than being borne by society as a whole. A basic form of this is the UK's Clean Air Act of 1956, which banned certain uses of coal. This law is credited with ending the recurrent [air pollution events in London](https://en.wikipedia.org/wiki/Great_Smog), and improving public health.
 

@@ -1,3 +1,5 @@
+# Ambulances Response Times East of the Anacostia River
+
 *This article was originally published on [GreaterGreaterWashington.org](http://greatergreaterwashington.org/post/33374/ambulances-take-longer-to-reach-you-if-you-live-east-of-the-anacostia-river/).*
 
 Ambulances in DC generally take longer to respond to neighborhoods east of the Anacostia River, and the river itself seems to be part of the cause. This map, which I made using data obtained from DC FEMS under the Freedom of Information Act, shows areas of the city where the proportion of all critical 911 calls where an ambulance took more than 10 minutes to arrive at the scene from the time they were notified.

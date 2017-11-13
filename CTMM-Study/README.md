@@ -1,12 +1,14 @@
+# Painpoints in DC's Crosstown Multimodal Transportation Study
+
 The [Crosstown Multimodal transport study](http://www.dccrosstownstudy.com/) is part of the effort to improve transportation options in the District of Columbia. DC's Department of Transportation is weighing the costs and benefits of numerous improvements for people who walk, cycle, or use transit between the Columbia Heights and Brookland neighborhoods. The study actively solicits input from the public, and to date has held three public meetings (with a fourth scheduled) and created a [website](http://www.dccrosstownstudy.com/interactivemap/) where the public can provide commentary on specific locations within the study area.
 
 The comment map interested me. Individual comments are insightful and reading through them gives a good impression about how the public perceives a given area. I wanted the big picture though: What did the comments indicate were the most important issues in the study area?
 
-I reached out to the study's leadership and they graciously provided me with the raw data from the comment map. My plan was to identify areas with a high-density of comments and then use text analysis on the comments to determine overarching themes.
+I reached out to the study's leadership and they graciously provided me with the raw data from the comment map. The plan was to identify areas with a high-density of comments and then use text analysis on the comments to determine overarching themes.
 
-The results were not as satisfying as I had hoped. As it turns out, 600 comments across the entire study area proved to be too few. Even the densest areas only had a small number of comments each. Nonetheless, I want to document the process for identifying the areas of interest. It may have a use elsewhere. 
+The results were not as satisfying as I had hoped. As it turns out, 600 comments across the entire study area proved to be too few. Even the densest areas only had a small number of comments each. Nonetheless, the process for identifying the areas of interest may have uses elsewhere. 
 
-##The results
+## The results
 
 Here's the bottom line up front: the five areas with the highest (relative) density of comments are... 
 
@@ -16,17 +18,17 @@ Here's the bottom line up front: the five areas with the highest (relative) dens
 4. The Metropolitan Branch Trail crossing at Monroe Street ([link](https://www.google.com/maps/@38.93223,-76.9949797,3a,75y,18.99h,83.31t/data=!3m6!1e1!3m4!1sx3oMSNP5mNFpKaIuivkuLg!2e0!7i13312!8i6656))
 5. The intersection of Michigan Avenue and 10th Street NE ([link](https://www.google.com/maps/@38.935459,-76.993003,3a,75y,181.65h,80.95t/data=!3m7!1e1!3m5!1sZam189MqE2OwAHPk-kiBwg!2e0!6s%2F%2Fgeo3.ggpht.com%2Fcbk%3Fpanoid%3DZam189MqE2OwAHPk-kiBwg%26output%3Dthumbnail%26cb_client%3Dmaps_sv.tactile.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D143.30801%26pitch%3D0!7i13312!8i6656))
 
-![](/content/images/2016/09/maxkde-1.svg)
+![](/CTMM-Study/Visuals/DCMultiModalStudy.png)
 
-This is an intuitive finding. As a cyclist and pedestrian in the area, I have a lot of thoughts on 2, 4, and 5. Trying to bike across Monroe, in the mornings can be a little dicey.
+This is an intuitive finding. As a cyclist and pedestrian in the area, I have a lot of thoughts on 2, 4, and 5. Trying to cross Monroe after the bridge in the mornings is a good way to die.
 
-##How it was done
+## How it was done
 
-At a high level, the process for locating the most commented-on areas is simple: use comment latitude and longitude to estimate the underlying geographic distribution, find the points that correspond to peaks in that distribution, and then keep the top X points by estimated density. 
+At a high level, the process for locating the most commented-on areas is simple: use comment latitude and longitude to estimate the underlying geographic distribution, find the coordinates that correspond to peaks in that distribution, and then keep the top X points by estimated density. 
 
-For the first part, I used [kernel density estimation](https://en.wikipedia.org/wiki/Kernel_density_estimation) of the comment geographic distribution. This gives us the smooth heat map you see above. 
+For the first part, a properly-tuned [kernel density estimation](https://en.wikipedia.org/wiki/Kernel_density_estimation) of the comment geographic distribution gives a smooth heat map, seen above. 
 
-Bandwidth selection is usually the dilemma with KDE. Here I cheated a bit by assuming that the underlying distribution will be strongly dictated by two factors: First, how precisely users of the map placed their comments. Second, people's notion of what constitutes a place (e.g., how far can I get from the Columbia Heights Metro before I would no longer describe myself as "near the intersection"). In my estimate, the answer to both is "about 300 meters." 
+Bandwidth selection is usually the dilemma with KDE. Here I cheat a bit by assuming that the underlying distribution will be strongly dictated by two factors: First, how precisely users of the map placed their comments. Second, people's notion of what constitutes a place (e.g., how far can I get from the Columbia Heights Metro before I would no longer describe myself as "near the intersection"). In my estimate, the answer to both is "about 300 meters." 
 
 
     #Determine Bandwidth and KDE output matrix side
@@ -70,6 +72,4 @@ Once we have the density estimate, we need to check second order conditions acro
 
 This will give you all local maxima, so as a final step check the estimated density at each location and choose which are the most important.
 
-That's it, a very simple but direct means of extracting structure from a geographic distribution. Once you have the points of interest, it is possible to subset the original comments based on proximity, or compare against other geospatial datasets.
-
-You can find the full source code and the comment data on [my Github site](https://github.com/DanHenebery/dc-multimodal-comment-maps).
+That's it: a very simple but direct means of extracting structure from a geographic distribution. Once you have the points of interest, it is possible to subset the original comments based on proximity, or compare against other geospatial datasets.

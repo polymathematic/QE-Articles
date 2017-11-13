@@ -1,8 +1,10 @@
+# The best route for checking out DC’s breweries
+
 *This article was originally published on [GreaterGreaterWashington.org](http://greatergreaterwashington.org/post/33715/this-is-the-best-route-for-checking-out-dcs-breweries/).*
 
 It's [DC beer week](http://dcbeerweek.net/), an annual event that celebrates local brewers, who add to the region's character and economy. There are ten brewers in DC plus one that's just across the border in Silver Spring. To see them all, I created what I'm calling the Washington Beer Trail.
 
-![](/content/images/2016/11/DCBeerMap.png)
+![](/DC-Beer-Trail/Visuals/dcbt.png)
 
 These are the breweries on the trail, which I selected by narrowing down Kate Rabinowitz's dataset of over [70 breweries and brewpubs around DC](http://www.datalensdc.com/DC-region-breweries.html):
 
@@ -37,5 +39,3 @@ If you're hungry by the end, grab some fantastic Neapolitan pizza at Menomale at
 All of these establishments are open on Saturday, and most stay open as late as 9 or 10 pm. Hellbender and Three Star, however, close much earlier at 7 and 5 pm, respectively. Plan accordingly.
 
 Did I miss a brewery or your favorite brewpub? Should beer gardens and notable beer bars be included next year? Let me hear about it in the comments below.
-
-The code and data I used to create the beer trail can be found on my [Github](https://github.com/DanHenebery/DC-Beer-Trail).

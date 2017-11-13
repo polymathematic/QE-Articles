@@ -1,27 +1,33 @@
+# What caused the price of swans to crash in 1995?
+
 *This piece was originally published on on the now-defunct blog, Questionable Economics. It is included here as part of a selection of my favorite posts from that site.*
 
-You probably missed it, but according to a notable economic indicator, a sector of the U.S. economy crashed in 1995 and has only recently recovered to pre-crisis levels. 
+You probably missed it: a major sector of the U.S. economy crashed in 1995 and has only recently recovered to pre-crisis levels, but according to a notable economic indicator,. 
 
 The indicator in question is the [Christmas Price Index]( https://www.pncchristmaspriceindex.com/) (CPI-XMAS), and the sector is the market for swans. Every December, a group of economists at PNC Bank calculates this very special price index based. Like any price index, CPI-XMAS measures the total price of a basket of goods from year to year in order to estimate changes in the overall price level of the economy. Other, less whimsical, indices look at sets of common producer inputs and consumer goods such as [cartons of eggs](http://data.bls.gov/timeseries/APU0000708111?data_tool=XGtable), [gallons of gasoline](http://data.bls.gov/timeseries/APU00007471A?data_tool=XGtable), or [tons of cold-rolled steel](http://data.bls.gov/timeseries/WPU10170702?data_tool=XGtable). The basket for the Christmas Price Index is based entirely on the set of gifts described in "The 12 Days of Christmas." 
 
 For Christmas 2014, the total price of this basket is [$27,673](https://www.pncchristmaspriceindex.com/pnc/price-index-by-year). Of this, $7,000 comes from the cost of seven swans-a-swimming, making it the most expense individual gift. Surprisingly, this is still not as high as the price once was, according to historic data from the index. The chart below shows CPI-XMAS with and without swans, the price level of swans alone, and the official Consumer Price Index (CPI) for reference. From it, we see that the nominal price for swans was already at $7,000 as early as 1984, when PNC first recorded the index. Given thirty years of price inflation, even at $1,000 a piece, swans are still significantly cheaper in real terms than they were when the index was started. 
 
-![](/content/images/2015/03/PriceIndices.png)
+![](/Christmas-Price-Index/Visuals/PriceIndices.png)
 
 According to PNC, the price of swans remained constant at $1,000 a bird from 1984 to 1994. In 1995, that price crashed to $500 and remained depressed for several years before slowly recovering. [PNC notes that this crash occurred](https://www.pncchristmaspriceindex.com/pdf/2014-Price-Index.pdf) in educational and press materials, but does not explain why it occurred. Instead, PNC treats this anomaly with a separate “core” CPI-XMAS index, which excludes price-volatile swans. Without swans, CPI-XMAS has a steady upward trend similar to official CPI, as one would expect.
+
+## Why Swans?
 
 There are two broad explanations for why the price of swans would crash: a demand shock or a supply shock. In the former, swans become less popular for some reason, and the amount consumers are willing to spend on swans drops. In the latter, new swan suppliers enter the market, existing suppliers expand capacity, or some of both occurs. While both of these would cause a price fall, their impact on quantity is quite different. All else held equal, a negative demand shock will decrease the market’s equilibrium quantity and a positive supply shock will increase it.
 
 As luck would have it, mute swans, the very swans cited in the Christmas Price Index, are an invasive species, and therefore subject to population monitoring. In 1985, the [Atlantic Flyway Council](http://www.flyways.us/) began conducting mute swan population surveys every three to four years along the east coast of the United States. The [Mute Swan Mid-Summer Survey (MSMSS)]( http://www.portal.state.pa.us/portal/server.pt/document/1374270/2011_mute_swan_survey_results_pdf) does not attempt to count the whole population, but rather, estimates population growth by counting all swans in a small area. Below are the results of the MSMSS for Pennsylvania plotted against the price of swans as reported in CPI-XMAS for corresponding years:  
 
-![](/content/images/2015/03/swanmarket-1.png)
+![](/Christmas-Price-Index/Visuals/swanmarket.png)
 
 The relationship is significant and negative. In other words, as the price of swans fell, the quantity of swans provided increased. This strongly suggests that a supply shock of some kind caused the 1995 price crash. David Miller, an avian expert at the National Aviary, shares this interpretation:
 
->In [1995], swan breeders, for some reason unknown to me, increased. A drop in the sale value to $500 could be due to a change in demand or an influx of breeders in a competitive market dropping the price for a short period of time. The new breeders couldn’t sustain that cost for long, so they faded away, leaving the long-term breeders to sustain the market. That’s the only explanation I can see for that time period.<cite>David Miller, Avian expert</cite>
+>In [1995], swan breeders, for some reason unknown to me, increased. A drop in the sale value to $500 could be due to a change in demand or an influx of breeders in a competitive market dropping the price for a short period of time. The new breeders couldn’t sustain that cost for long, so they faded away, leaving the long-term breeders to sustain the market. That’s the only explanation I can see for that time period.<cite>David Miller, Bird guy</cite>
+
+## A possible explanation: It's New York's fault
 
 A possible explanation for the supply shock is New York's 1993 [mute swan management plan]( http://www.nytimes.com/2014/01/30/nyregion/a-winged-symbol-of-love-that-new-york-state-wants-banished.html?_r=0). Under the plan, birds were removed from state-owned wildlife areas and their eggs were oiled to prevent hatching. The plan strictly forbade killing mute swans, possibly due to the [popularity the birds enjoy]( http://www.nytimes.com/2014/02/18/opinion/speaking-up-for-the-mute-swan.html).
 
-New York achieved some success with this plan. Between 1993 and 1996, the MSMSS shows that the mute swan population in New York declined by 400 observed birds. Since the birds were not killed, it is possible they were exported to Pennsylvania and other nearby states. New York's population decrease is more than enough to account for population increase in Pennsylvania, which cannot be explained through normal growth alone.
+New York achieved some success with this plan. Between 1993 and 1996, the MSMSS shows that the mute swan population in New York declined by 400 observed birds. Since the birds were not killed, it is possible they were exported to Pennsylvania and other nearby states. In other words, New York might have crushed the ornamental swan market by driving birds accross the state line. New York's population decrease is more than enough to account for population increase in Pennsylvania, which cannot be explained through normal growth alone.
  
 In recent years, the effects of the shock have reversed. This may be due to breeders exiting the market, but probably has more to do with a new [multi-state initiative]( https://www.michigan.gov/documents/dnr/AFC_mute_swan_plan1_364878_7.pdf) launched in 2003 to decrease the east coast mute swan population as a whole. While this will have an adverse effect on the year-over-year change in the Christmas Price Index and commensurate merriment and good tidings, it is anticipated to benefit native waterfowl and aquatic fauna.

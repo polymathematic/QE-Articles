@@ -2,7 +2,7 @@
 
 Ambulances in DC generally take longer to respond to neighborhoods east of the Anacostia River, and the river itself seems to be part of the cause. This map, which I made using data obtained from DC FEMS under the Freedom of Information Act, shows areas of the city where the proportion of all critical 911 calls where an ambulance took more than 10 minutes to arrive at the scene from the time they were notified.
 
-![](/Visuals/FEMS-Final_500.png)
+![](/DC FEMS/Visuals/FEMS-Final_500.png)
 
 When Dr. Julette Saussy, the former head of emergency medical services for DC, resigned last February, she wrote an [open letter](http://dcist.com/2016/02/_dr_jullette_saussy_resignation.php) to the city explaining her reasons. In the letter she mentions Robert Leroi Wiggins, a 35-year-old man stabbed in the Benning Ridge neighborhood on January 27, 2016. After 18 minutes, an ambulance finally arrived and transported Mr. Wiggins to a hospital. Four days later, he succumbed to his injuries. Ms. Saussy suggests that he might have survived if the ambulance had reached him sooner.
 

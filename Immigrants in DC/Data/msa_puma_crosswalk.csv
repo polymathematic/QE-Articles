@@ -1,0 +1,53 @@
+msa_code,msa_name,state_fips,state_name,puma,puma_name
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",11,District of Columbia,100,District of Columbia (All) PUMA
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",11,District of Columbia,101,District of Columbia (West) PUMA
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",11,District of Columbia,102,District of Columbia (North) PUMA
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",11,District of Columbia,103,District of Columbia (Northeast) PUMA
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",11,District of Columbia,104,District of Columbia (East) PUMA
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",11,District of Columbia,105,District of Columbia (Central) PUMA
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",24,Maryland,301,Frederick County (Outside Greater Frederick City) PUMA
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",24,Maryland,302,Frederick County (Central)--Greater Frederick City PUMA
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",24,Maryland,1000,Montgomery County (All)
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",24,Maryland,1100,Prince George's County (All)
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",24,Maryland,1001,"Montgomery County (North & West)--Olney, Damascus, Clarksburg & Darnestown PUMA"
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",24,Maryland,1002,Montgomery County (West Central)--Germantown & Montgomery Village PUMA
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",24,Maryland,1003,"Montgomery County (Central)--Rockville, Gaithersburg Cities & North Potomac PUMA"
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",24,Maryland,1004,"Montgomery County (South)--Bethesda, Potomac & North Bethesda PUMA"
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",24,Maryland,1005,"Montgomery County (East Central)--Wheaton, Aspen Hill & Glenmont PUMA"
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",24,Maryland,1006,"Montgomery County (East)--Fairland, Calverton, White Oak & Burtonsville PUMA"
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",24,Maryland,1007,Montgomery County (Southeast)--Takoma Park City & Silver Spring PUMA
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",24,Maryland,1101,Prince George's County (Northwest)--College Park City & Langley Park PUMA
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",24,Maryland,1102,"Prince George's County (North)--Laurel, Greenbelt (North & East) Cities & Beltsville PUMA"
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",24,Maryland,1103,Prince George's County (Northwest)--New Carrollton & Hyattsville (Southeast) Cities PUMA
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",24,Maryland,1104,"Prince George's County (Central)--Seat Pleasant City, Capitol Heights Town & Landover PUMA"
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",24,Maryland,1105,"Prince George's County (East)--Bowie City, Kettering, Largo, Mitchellville & Lanham PUMA"
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",24,Maryland,1106,"Prince George's County (South)--Clinton, Fort Washington (South), Rosaryville & Croom PUMA"
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",24,Maryland,1107,"Prince George's County (Southwest)--Oxon Hill, Hillcrest Heights & Temple Hills PUMA"
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",24,Maryland,1500,St. Mary's & Calvert Counties PUMA
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",24,Maryland,1600,Charles County--La Plata Town & Waldorf PUMA
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",51,Virginia,1301,Arlington County (North) PUMA
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",51,Virginia,1302,Arlington County (South) PUMA
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",51,Virginia,10700,Loudoun County (All)
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",51,Virginia,10701,Loudoun County (Northeast)--Sterling & Ashburn (Northeast/Ashburn Village) PUMA
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",51,Virginia,10702,Loudoun County (East Central)--Ashburn (Southwest/Belmont Ridge) & Dulles Airport PUMA
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",51,Virginia,10703,Loudoun County (West & South)--Leesburg Town PUMA
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",51,Virginia,51084,Northern Shenandoah Valley Regional Commission (North) PUMA
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",51,Virginia,51085,Northern Shenandoah Valley Regional Commission (South) PUMA
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",51,Virginia,51087,Rappahannock-Rapidan Regional Commission PUMA
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",51,Virginia,51115,George Washington Regional Commission (North) PUMA
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",51,Virginia,51120,George Washington Regional Commission (South) PUMA
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",51,Virginia,51244,Prince William County (North & West)--Linton Hall & Gainesville PUMA
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",51,Virginia,51245,"Manassas, Manassas Park Cities & Prince William County (Central)--Buckhall & Sudley PUMA"
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",51,Virginia,51246,"Prince William County (Southeast)--Dale City, Lake Ridge & Woodbridge PUMA"
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",51,Virginia,51255,Alexandria City PUMA
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",51,Virginia,59300,Fairfax County (All)
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",51,Virginia,59301,"Fairfax County (East Central)--Annandale, West Falls Church & Bailey's Crossroads PUMA"
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",51,Virginia,59302,"Fairfax County (Southeast)--Woodlawn, Rose Hill & Mount Vernon PUMA"
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",51,Virginia,59303,Fairfax County (Central) & Fairfax City--Burke PUMA
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",51,Virginia,59304,Fairfax County (Southwest)--Centreville (Southeast) & Lorton PUMA
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",51,Virginia,59305,"Fairfax County (North Central)--Vienna Town, Oakton & Fair Oaks (East) PUMA"
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",51,Virginia,59306,"Fairfax County (South Central)--Springfield (South), West Springfield & Franconia PUMA"
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",51,Virginia,59307,Fairfax County (Northwest)--Reston (North) & Franklin Farm PUMA
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",51,Virginia,59308,Fairfax County (Northeast)--McLean & Idylwood PUMA
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",51,Virginia,59309,Fairfax County (West Central)--Centreville (North & West) & Chantilly (South & West) PUMA
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",54,West Virginia,400,"Berkeley, Jefferson, Mineral, Hampshire & Morgan Counties PUMA"

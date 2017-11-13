@@ -1,0 +1,61 @@
+Occupation,State,BirthCitizen,Immigrant,medianWage,totalPop,Immigrant_Prop,OccName,wageLev
+800,DC,10529,6038,85000,16567,36,Accountants and auditors,High-wage job
+6230,DC,959,3857,31200,4816,80,Carpenters,Low-wage job
+4720,DC,3892,3231,16000,7123,45,Cashiers,Low-wage job
+4000,DC,1018,2440,29000,3458,70,Chefs and head cooks,Low-wage job
+4600,DC,2243,3009,7500,5252,57,Childcare workers,Low-wage job
+1050,DC,4369,2961,80000,7330,40,Computer support specialists,Mid-wage job
+6260,DC,2724,3236,25000,5960,54,Construction laborers,Low-wage job
+4020,DC,3179,5050,23400,8229,61,Cooks,Low-wage job
+1800,DC,3195,2698,120000,5893,45,Economists,High-wage job
+4030,DC,1890,1697,20000,3587,47,Food preparation workers,Low-wage job
+310,DC,2178,1446,50000,3624,39,Food service managers,Mid-wage job
+4220,DC,7416,10228,22800,17644,57,Janitors and building cleaners,Low-wage job
+4230,DC,2309,8078,25000,10387,77,Maids and housekeeping cleaners,Low-wage job
+1240,DC,1777,1367,89000,3144,43,Misc. mathematical science occupations,High-wage job
+3600,DC,3326,3437,26000,6763,50,Home health aides,Low-wage job
+4610,DC,1811,1259,26000,3070,41,Personal care aides,Low-wage job
+1760,DC,2141,1556,119000,3697,42,"Physical scientists, all other",High-wage job
+3255,DC,5652,4113,70000,9765,42,Registered nurses,Mid-wage job
+9140,DC,1337,3191,19000,4528,70,Taxi drivers and chauffeurs,Low-wage job
+4110,DC,4170,3340,20000,7510,44,Waiters and waitresses,Low-wage job
+7200,MD,3251,2328,40000,5579,41,Automotive service technicians,Mid-wage job
+6230,MD,3524,6900,27000,10424,66,Carpenters,Low-wage job
+4000,MD,1594,1511,35000,3105,48,Chefs and head cooks,Mid-wage job
+4600,MD,7708,5327,4900,13035,40,Childcare workers,Low-wage job
+6260,MD,4252,7623,25000,11875,64,Construction laborers,Low-wage job
+4020,MD,8636,6115,15000,14751,41,Cooks,Low-wage job
+3320,MD,1800,1313,67000,3113,42,Diagnostic related technicians,Mid-wage job
+4010,MD,1907,1226,19000,3133,39,"First-line supervisors, food prep.",Low-wage job
+4030,MD,5812,3965,12000,9777,40,Food preparation workers,Low-wage job
+310,MD,2718,1707,48000,4425,38,Food service managers,Mid-wage job
+4250,MD,2912,4972,25000,7884,63,Grounds maintenance workers,Low-wage job
+3600,MD,6485,7181,25000,13666,52,Home health aides,Low-wage job
+4220,MD,8670,6209,22000,14879,41,Janitors and building cleaners,Low-wage job
+3500,MD,3208,3295,40000,6503,50,Licensed practical and vocational nurses,Mid-wage job
+4230,MD,2509,14009,14000,16518,84,Maids and housekeeping cleaners,Low-wage job
+1650,MD,2600,5015,90000,7615,65,Medical scientists,High-wage job
+6420,MD,1452,4069,26000,5521,73,"Painters, construction, maintenance",Low-wage job
+4610,MD,3047,2606,13900,5653,46,Personal care aides,Low-wage job
+1760,MD,4122,5002,90000,9124,54,"Physical scientists, all other",High-wage job
+9140,MD,1816,2900,15600,4716,61,Taxi drivers and chauffeurs,Low-wage job
+6230,VA,4247,5920,28000,10167,58,Carpenters,Low-wage job
+4000,VA,1313,2550,30000,3863,66,Chefs and head cooks,Low-wage job
+4600,VA,7156,5711,5400,12867,44,Childcare workers,Low-wage job
+1010,VA,3161,2649,98000,5810,45,Computer programmers,High-wage job
+6260,VA,4915,7754,30000,12669,61,Construction laborers,Low-wage job
+4020,VA,7700,5305,12600,13005,40,Cooks,Low-wage job
+4010,VA,3176,1879,20000,5055,37,"First-line supervisors, food prep.",Low-wage job
+4030,VA,3513,4159,10000,7672,54,Food preparation workers,Low-wage job
+310,VA,4145,3968,40000,8113,48,Food service managers,Mid-wage job
+4250,VA,4776,5310,20000,10086,52,Grounds maintenance workers,Low-wage job
+4510,VA,2909,2844,16000,5753,49,"Hairdressers, hairstylists, cosmetologists",Low-wage job
+4220,VA,5816,8150,21000,13966,58,Janitors and building cleaners,Low-wage job
+4230,VA,2704,9678,13200,12382,78,Maids and housekeeping cleaners,Low-wage job
+2160,VA,3206,2700,90000,5906,45,Misc. legal support workers,High-wage job
+4520,VA,1305,2157,20600,3462,62,Misc. personal appearance workers,Low-wage job
+3600,VA,5398,4770,21000,10168,46,Home health aides,Low-wage job
+6420,VA,1018,2458,18200,3476,70,"Painters, construction, maintenance",Low-wage job
+4610,VA,4135,2996,19200,7131,42,Personal care aides,Low-wage job
+3060,VA,3472,2046,197000,5518,37,Physicians and surgeons,High-wage job
+9140,VA,1385,3186,15000,4571,69,Taxi drivers and chauffeurs,Low-wage job

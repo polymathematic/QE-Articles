@@ -35,7 +35,7 @@ png(filename = "iris.png")
 p0
 dev.off()
 ```
-![iris](/iris.png)
+![iris](/GMM-Tutorial/iris.png)
 ```
 #K means on Iris
 iris_kmeans <- kmeans(iris[,1:4], centers = g)
@@ -47,7 +47,7 @@ png(filename = "iris_kmeans.png")
 p1
 dev.off()
 ```
-![iris_kmeans](/iris_kmeans.png)
+![iris_kmeans](/GMM-Tutorial/iris_kmeans.png)
 
 ```
 #Gaussian mixed model (GMM) on Iris
@@ -60,7 +60,7 @@ png(filename = "iris_gmm.png")
 p2
 dev.off()
 ```
-![iris_gmm](/iris_gmm.png)
+![iris_gmm](/GMM-Tutorial/iris_gmm.png)
 
 The code above produces the following charts. These plus the confustion matrices generated above show that both techniques create roughly similar estimates, both in line with the true classification.
 
@@ -96,7 +96,7 @@ png(filename = "df.png")
 p1
 dev.off()
 ```
-![iris](/df.png)
+![iris](/GMM-Tutorial/df.png)
 ```
 #K means on notional data
 df_kmeans <- kmeans(df[,1:2], centers = g)
@@ -108,7 +108,7 @@ png(filename = "df_kmeans.png")
 p4
 dev.off()
 ```
-![df_kmeans](/df_kmeans.png)
+![df_kmeans](/GMM-Tutorial/df_kmeans.png)
 
 ```
 #Gaussian mixed model (GMM) on notional data
@@ -121,7 +121,7 @@ png(filename = "df_gmm.png")
 p5
 dev.off()
 ```
-![iris_gmm](/df_gmm.png)
+![iris_gmm](/GMM-Tutorial/df_gmm.png)
 
 Here the material difference between the two techniques starts to become clear. Traditional k-means "pushes" the class centroids away from each other, creating a Voronoi structure in the feature space. Picture three baloons pressed together in a box and you have a pretty good idea of how k-means splits data. In this case, Kmeans observes the macro structure of the overall point cloud and splits it radially. While this provides good recall for the smaller cluster, it misses the larger class. 
 
@@ -129,6 +129,6 @@ GMM attempts to fit multivariate Gaussian distributions to the data. There's not
 
 Another benefit of GMM is that because it estimates distributions, each observation is associated with a discrete probability that it is in a given class, rather than an "all or nothing" classification. Thus, a point can be said to be 60% - A, 30% - B, and 10% - C rather than simply "A". This adds flexibility for the user to adjust the threshold for declaring a class. This may be useful in applications where a high degree of certainty is important for decision making. The ability to say "I don't know" is an unappreciated feature.
 
-#Credit
+# Credit
 * Chris Fraley, Adrian E. Raftery, T. Brendan Murphy, and Luca Scrucca (2012) mclust Version 4 for R: Normal Mixture Modeling for Model-Based Clustering, Classification, and Density Estimation Technical Report No. 597, Department of Statistics, University of Washington
 * Chris Fraley and Adrian E. Raftery (2002) Model-based Clustering, Discriminant Analysis and Density Estimation Journal of the American Statistical Association 97:611-631

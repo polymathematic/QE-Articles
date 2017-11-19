@@ -10,13 +10,13 @@
    viewBox="0 0 800.00001 978.99749"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="FEMS Final 3.svg"
    width="800"
    height="978.9975"
-   inkscape:export-filename="G:\Google Drive\Projects\GGW\DC FEMS\DC-FEMS-Visuals\Output\FEMS Final_500.png"
-   inkscape:export-xdpi="56.261635"
-   inkscape:export-ydpi="56.261635">
+   inkscape:export-filename="D:\Google Drive\Opus\Articles\DC-FEMS\Visuals\FEMS_800.png"
+   inkscape:export-xdpi="96.000244"
+   inkscape:export-ydpi="96.000244">
   <metadata
      id="metadata440">
     <rdf:RDF>
@@ -38,15 +38,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1440"
-     inkscape:window-height="897"
+     inkscape:window-width="2736"
+     inkscape:window-height="1699"
      id="namedview438"
      showgrid="true"
-     inkscape:zoom="0.81944444"
-     inkscape:cx="332.68794"
+     inkscape:zoom="4.5197482"
+     inkscape:cx="278.48138"
      inkscape:cy="559.95865"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-x="-13"
+     inkscape:window-y="-13"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2"
      showguides="false"
@@ -8662,7 +8662,7 @@
          transform="translate(52,124)" />
       <text
          id="text408"
-         style="font-size:15px;font-family:'Open Sans';fill:#707070"
+         style="font-size:15px;line-height:0%;font-family:'Open Sans';fill:#707070"
          y="648.44"
          x="66.150002">&lt;10%</text>
     </g>
@@ -8683,7 +8683,7 @@
         <text
            x="123.04"
            y="648.44"
-           style="font-size:15px;font-family:'Open Sans';fill:#707070"
+           style="font-size:15px;line-height:0%;font-family:'Open Sans';fill:#707070"
            id="text412">10 to 20%</text>
       </g>
     </g>
@@ -8701,7 +8701,7 @@
          transform="translate(52,124)" />
       <text
          id="text416"
-         style="font-size:15px;font-family:'Open Sans';fill:#707070"
+         style="font-size:15px;line-height:0%;font-family:'Open Sans';fill:#707070"
          y="648.44"
          x="212.71001">20 to 30%</text>
     </g>
@@ -8722,14 +8722,14 @@
         <text
            x="302.37"
            y="648.44"
-           style="font-size:15px;font-family:'Open Sans';fill:#707070"
+           style="font-size:15px;line-height:0%;font-family:'Open Sans';fill:#707070"
            id="text420">&gt;30%</text>
       </g>
     </g>
   </g>
   <text
      id="text428"
-     style="font-size:20px;font-family:'Open Sans Light';fill:#212121"
+     style="font-size:20px;line-height:0%;font-family:'Open Sans Light';fill:#212121"
      y="78.771767"
      x="25.688517">
     <tspan
@@ -8738,7 +8738,7 @@
   </text>
   <text
      id="text432"
-     style="font-size:35px;font-family:'Open Sans';fill:#212121"
+     style="font-size:35px;line-height:0%;font-family:'Open Sans';fill:#212121"
      y="50.591778"
      x="25.688517">
     <tspan
@@ -8747,7 +8747,7 @@
   </text>
   <text
      id="text436"
-     style="font-size:15px;font-family:'Open Sans Semibold';fill:#707070"
+     style="font-size:15px;line-height:0%;font-family:'Open Sans Semibold';fill:#707070"
      y="955.50067"
      x="24.956093">SOURCE: DC FEMS (April '14 - '16)</text>
   <rect
@@ -9851,28 +9851,26 @@
   </g>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:30px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      x="614.55017"
      y="453.0918"
-     id="text3599-3"
-     sodipodi:linespacing="125%"><tspan
+     id="text3599-3"><tspan
        sodipodi:role="line"
        id="tspan3601-2"
        x="614.55017"
        y="453.0918"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans'">West</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans'">West</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:27.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      x="621.39648"
      y="648.3208"
-     id="text3599"
-     sodipodi:linespacing="125%"><tspan
+     id="text3599"><tspan
        sodipodi:role="line"
        id="tspan3601"
        x="621.39648"
        y="648.3208"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.5px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans'">East</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.5px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans'">East</tspan></text>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
      d="m 183.75399,697.21458 114.20339,0"
@@ -9881,16 +9879,15 @@
      sodipodi:nodetypes="cc" />
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      x="33.833019"
      y="702.18121"
-     id="text3599-0"
-     sodipodi:linespacing="125%"><tspan
+     id="text3599-0"><tspan
        sodipodi:role="line"
        id="tspan3601-23"
        x="33.833019"
        y="702.18121"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans'">Anacostia River</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans'">Anacostia River</tspan></text>
   <g
      transform="matrix(0.63282622,0,0,0.63282622,465.33687,125.41335)"
      id="g3750">
@@ -10430,146 +10427,146 @@
     <text
        y="336.57596"
        x="-81.539497"
-       transform="matrix(0.12186934,-0.99254615,0.99254615,0.12186934,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(-83)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text241">0:00</text>
     <text
        y="383.84097"
        x="13.157427"
-       transform="matrix(0.37460659,-0.92718386,0.92718386,0.37460659,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(-68)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text245">1:00</text>
     <text
        y="405.64633"
        x="112.17139"
-       transform="matrix(0.60181502,-0.79863551,0.79863551,0.60181502,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(-53)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text249">2:00</text>
     <text
        y="400.57382"
        x="215.58353"
-       transform="matrix(0.78801075,-0.61566148,0.61566148,0.78801075,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(-38)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text253">3:00</text>
     <text
        y="368.92514"
        x="313.17538"
-       transform="matrix(0.92050485,-0.39073113,0.39073113,0.92050485,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(-23)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text257">4:00</text>
     <text
        y="312.87405"
        x="401.22101"
-       transform="matrix(0.99026807,-0.1391731,0.1391731,0.99026807,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(-7.9999999)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text261">5:00</text>
     <text
        y="236.22372"
        x="470.23349"
-       transform="matrix(0.99254615,0.12186934,-0.12186934,0.99254615,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(6.9999998)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text265">6:00</text>
     <text
        y="144.2166"
        x="518.31628"
-       transform="matrix(0.92718386,0.37460659,-0.37460659,0.92718386,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(22)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text269">7:00</text>
     <text
        y="43.078281"
        x="538.9632"
-       transform="matrix(0.79863551,0.60181502,-0.60181502,0.79863551,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(37)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text273">8:00</text>
     <text
        y="-60.25111"
        x="534.33826"
-       transform="matrix(0.61566148,0.78801075,-0.78801075,0.61566148,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(52)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text277">9:00</text>
     <text
        y="-158.81888"
        x="496.70078"
-       transform="matrix(0.39073113,0.92050485,-0.92050485,0.39073113,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(67)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text281">10:00</text>
     <text
        y="-245.76398"
        x="443.38876"
-       transform="matrix(0.1391731,0.99026807,-0.99026807,0.1391731,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(82)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text285">11:00</text>
     <text
        y="333.12009"
        x="-430.68311"
-       transform="matrix(0.12186934,-0.99254615,0.99254615,0.12186934,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(-83)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text289">12:00</text>
     <text
        y="380.44376"
        x="-338.59872"
-       transform="matrix(0.37460659,-0.92718386,0.92718386,0.37460659,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(-68)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text293">13:00</text>
     <text
        y="402.33435"
        x="-238.39304"
-       transform="matrix(0.60181502,-0.79863551,0.79863551,0.60181502,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(-53)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text297">14:00</text>
     <text
        y="397.33862"
        x="-133.99066"
-       transform="matrix(0.78801075,-0.61566148,0.61566148,0.78801075,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(-38)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text301">15:00</text>
     <text
        y="365.76935"
        x="-35.977512"
-       transform="matrix(0.92050485,-0.39073113,0.39073113,0.92050485,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(-23)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text305">16:00</text>
     <text
        y="309.78836"
        x="51.759514"
-       transform="matrix(0.99026807,-0.1391731,0.1391731,0.99026807,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(-7.9999999)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text309">17:00</text>
     <text
        y="233.20091"
        x="120.02469"
-       transform="matrix(0.99254615,0.12186934,-0.12186934,0.99254615,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(6.9999998)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text313">18:00</text>
     <text
        y="141.26662"
        x="167.72229"
-       transform="matrix(0.92718386,0.37460659,-0.37460659,0.92718386,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(22)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text317">19:00</text>
     <text
        y="40.191471"
        x="187.00374"
-       transform="matrix(0.79863551,0.60181502,-0.60181502,0.79863551,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(37)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text321">20:00</text>
     <text
        y="-63.047958"
        x="184.6754"
-       transform="matrix(0.61566148,0.78801075,-0.78801075,0.61566148,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(52)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text325">21:00</text>
     <text
        y="-161.49945"
        x="150.99634"
-       transform="matrix(0.39073113,0.92050485,-0.92050485,0.39073113,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(67)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text329">22:00</text>
     <text
        y="-248.40396"
        x="95.086525"
-       transform="matrix(0.1391731,0.99026807,-0.99026807,0.1391731,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(82)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text333">23:00</text>
   </g>
   <g
@@ -11111,146 +11108,146 @@
     <text
        y="336.57596"
        x="-81.539497"
-       transform="matrix(0.12186934,-0.99254615,0.99254615,0.12186934,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(-83)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text241-5">0:00</text>
     <text
        y="383.84097"
        x="13.157427"
-       transform="matrix(0.37460659,-0.92718386,0.92718386,0.37460659,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(-68)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text245-1">1:00</text>
     <text
        y="405.64633"
        x="112.17139"
-       transform="matrix(0.60181502,-0.79863551,0.79863551,0.60181502,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(-53)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text249-2">2:00</text>
     <text
        y="400.57382"
        x="215.58353"
-       transform="matrix(0.78801075,-0.61566148,0.61566148,0.78801075,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(-38)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text253-3">3:00</text>
     <text
        y="368.92514"
        x="313.17538"
-       transform="matrix(0.92050485,-0.39073113,0.39073113,0.92050485,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(-23)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text257-0">4:00</text>
     <text
        y="312.87405"
        x="401.22101"
-       transform="matrix(0.99026807,-0.1391731,0.1391731,0.99026807,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(-7.9999999)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text261-7">5:00</text>
     <text
        y="236.22372"
        x="470.23349"
-       transform="matrix(0.99254615,0.12186934,-0.12186934,0.99254615,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(6.9999998)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text265-9">6:00</text>
     <text
        y="144.2166"
        x="518.31628"
-       transform="matrix(0.92718386,0.37460659,-0.37460659,0.92718386,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(22)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text269-2">7:00</text>
     <text
        y="43.078281"
        x="538.9632"
-       transform="matrix(0.79863551,0.60181502,-0.60181502,0.79863551,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(37)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text273-7">8:00</text>
     <text
        y="-60.25111"
        x="534.33826"
-       transform="matrix(0.61566148,0.78801075,-0.78801075,0.61566148,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(52)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text277-4">9:00</text>
     <text
        y="-158.81888"
        x="496.70078"
-       transform="matrix(0.39073113,0.92050485,-0.92050485,0.39073113,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(67)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text281-9">10:00</text>
     <text
        y="-245.76398"
        x="443.38876"
-       transform="matrix(0.1391731,0.99026807,-0.99026807,0.1391731,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(82)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text285-8">11:00</text>
     <text
        y="333.12009"
        x="-430.68311"
-       transform="matrix(0.12186934,-0.99254615,0.99254615,0.12186934,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(-83)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text289-1">12:00</text>
     <text
        y="380.44376"
        x="-338.59872"
-       transform="matrix(0.37460659,-0.92718386,0.92718386,0.37460659,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(-68)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text293-0">13:00</text>
     <text
        y="402.33435"
        x="-238.39304"
-       transform="matrix(0.60181502,-0.79863551,0.79863551,0.60181502,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(-53)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text297-9">14:00</text>
     <text
        y="397.33862"
        x="-133.99066"
-       transform="matrix(0.78801075,-0.61566148,0.61566148,0.78801075,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(-38)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text301-8">15:00</text>
     <text
        y="365.76935"
        x="-35.977512"
-       transform="matrix(0.92050485,-0.39073113,0.39073113,0.92050485,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(-23)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text305-0">16:00</text>
     <text
        y="309.78836"
        x="51.759514"
-       transform="matrix(0.99026807,-0.1391731,0.1391731,0.99026807,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(-7.9999999)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text309-7">17:00</text>
     <text
        y="233.20091"
        x="120.02469"
-       transform="matrix(0.99254615,0.12186934,-0.12186934,0.99254615,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(6.9999998)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text313-5">18:00</text>
     <text
        y="141.26662"
        x="167.72229"
-       transform="matrix(0.92718386,0.37460659,-0.37460659,0.92718386,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(22)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text317-7">19:00</text>
     <text
        y="40.191471"
        x="187.00374"
-       transform="matrix(0.79863551,0.60181502,-0.60181502,0.79863551,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(37)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text321-7">20:00</text>
     <text
        y="-63.047958"
        x="184.6754"
-       transform="matrix(0.61566148,0.78801075,-0.78801075,0.61566148,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(52)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text325-0">21:00</text>
     <text
        y="-161.49945"
        x="150.99634"
-       transform="matrix(0.39073113,0.92050485,-0.92050485,0.39073113,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(67)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text329-9">22:00</text>
     <text
        y="-248.40396"
        x="95.086525"
-       transform="matrix(0.1391731,0.99026807,-0.99026807,0.1391731,0,0)"
-       style="font-size:25px;font-family:'Exo 2 Semi Bold';fill:#707070"
+       transform="rotate(82)"
+       style="font-size:25px;line-height:0%;font-family:'Exo 2 Semi Bold';fill:#707070"
        id="text333-0">23:00</text>
   </g>
   <path
@@ -11267,24 +11264,24 @@
      sodipodi:nodetypes="cc" />
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      x="589.28406"
      y="155.37038"
-     id="text5597"
-     sodipodi:linespacing="125%"><tspan
+     id="text5597"><tspan
        sodipodi:role="line"
        id="tspan5599"
        x="589.28406"
-       y="155.37038">Time of Day</tspan></text>
+       y="155.37038"
+       style="font-size:20px;line-height:1.25">Time of Day</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      x="589.28406"
      y="941.80322"
-     id="text5597-0"
-     sodipodi:linespacing="125%"><tspan
+     id="text5597-0"><tspan
        sodipodi:role="line"
        id="tspan5599-7"
        x="589.28406"
-       y="941.80322">Time of Day</tspan></text>
+       y="941.80322"
+       style="font-size:20px;line-height:1.25">Time of Day</tspan></text>
 </svg>

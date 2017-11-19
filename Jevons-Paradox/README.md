@@ -1,8 +1,8 @@
-# Jevon's Paradox today
+# Jevon's Paradox Today
 
-*This piece was originally published on on the now-defunct blog, Questionable Economics. It is included here as part of a selection of my favorite posts from that site.*
+*This piece was originally published on on the blog, Questionable Economics. It is included here as part of a selection of my favorite posts from that site.*
 
-[Jevons’ Paradox](https://en.wikipedia.org/wiki/Jevons_paradox) refers to a combination of economic circumstances that causes total demand for a consumable resource to rise in spite of advances in the efficient use of that resource. When demand for a resource exhibits this behavior, increases in efficiency exacerbate the hidden social costs associated with its extraction and use.
+[Jevons’ Paradox](https://en.wikipedia.org/wiki/Jevons_paradox) refers to the economic circumstances that cause total demand for a resource to rise in spite of advances in the efficient use of that resource. One would expect greater efficiency to lead to lower consumption, but it can sometimes mean more.
 
 ## What is Jevons' Paradox?
  

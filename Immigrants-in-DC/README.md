@@ -1,6 +1,6 @@
 # Immigrants in Maryland and Virginia
 
-Like DC, Virginia and Maryland have a huge number of maids, painters, and taxi drivers born outside of the US. But Virginia also has a large number of computer programmers who weren’t born here, and in Maryland, that’s the case for a lot of medical scientists. I've made graphs to show which jobs in Virginia and Maryland have the most immigrants.
+Like DC, Virginia and Maryland have a huge number of maids, painters, and taxi drivers who were born outside of the US. But Virginia also has a large number of computer programmers who weren’t born here, and in Maryland, that’s also the case for a lot of medical scientists.
 
 In my [last post](https://ggwash.org/view/62441/see-the-percentage-of-immigrants-working-different-job-types-in-dc), I looked at a short analysis by Ginger Moored at [DistrictMeasured](https://districtmeasured.com/2017/02/16/d-c-s-immigrant-workforce/) of how many immigrants make up DC’s workforce. The key takeaways were that 26% of DC’s workforce is made up of immigrants, and that for some specific occupations (economists, for example) the percentage is far higher.
 

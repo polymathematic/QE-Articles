@@ -1,6 +1,6 @@
-# Painpoints in DC's Crosstown Multimodal Transportation Study
+# Painpoints in Washington, DC's Crosstown Multimodal Transport Study
 
-The [Crosstown Multimodal transport study](http://www.dccrosstownstudy.com/) is part of the effort to improve transportation options in the District of Columbia. DC's Department of Transportation is weighing the costs and benefits of numerous improvements for people who walk, cycle, or use transit between the Columbia Heights and Brookland neighborhoods. The study actively solicits input from the public, and to date has held three public meetings (with a fourth scheduled) and created a [website](http://www.dccrosstownstudy.com/interactivemap/) where the public can provide commentary on specific locations within the study area.
+The [Crosstown Multimodal transport study](http://www.dccrosstownstudy.com/) is part of the effort to improve transportation options in the District of Columbia. DC's Department of Transportation is weighing the costs and benefits of numerous improvements for people who walk, cycle, or use transit between the neighborhoods of Columbia Heights and Brookland. The study actively solicits input from the public, and to date has held three public meetings (with a fourth scheduled) and created a [website](http://www.dccrosstownstudy.com/interactivemap/) where the public can provide commentary on specific locations within the study area.
 
 The comment map interested me. Individual comments are insightful and reading through them gives a good impression about how the public perceives a given area. I wanted the big picture though: What did the comments indicate were the most important issues in the study area?
 
@@ -20,11 +20,11 @@ Here's the bottom line up front: the five areas with the highest (relative) dens
 
 ![](/CTMM-Study/Visuals/DCMultiModalStudy.png)
 
-This is an intuitive finding. As a cyclist and pedestrian in the area, I have a lot of thoughts on 2, 4, and 5. Trying to cross Monroe after the bridge in the mornings is a good way to die.
+This is an intuitive finding. As a cyclist and pedestrian in the area, I have a lot of thoughts on 2, 4, and 5. Trying to cross Monroe near the bridge in the morning is a good way to die.
 
 ## How it was done
 
-At a high level, the process for locating the most commented-on areas is simple: use comment latitude and longitude to estimate the underlying geographic distribution, find the coordinates that correspond to peaks in that distribution, and then keep the top X points by estimated density. 
+At a high level, the process for locating the most commented-on areas is simple: use comment latitude and longitude to estimate the underlying geographic distribution, find the coordinates that correspond to peaks in that distribution, and then keep the subset of those points with the highest estimated density.
 
 For the first part, a properly-tuned [kernel density estimation](https://en.wikipedia.org/wiki/Kernel_density_estimation) of the comment geographic distribution gives a smooth heat map, seen above. 
 
@@ -72,4 +72,4 @@ Once we have the density estimate, we need to check second order conditions acro
 
 This will give you all local maxima, so as a final step check the estimated density at each location and choose which are the most important.
 
-That's it: a very simple but direct means of extracting structure from a geographic distribution. Once you have the points of interest, it is possible to subset the original comments based on proximity, or compare against other geospatial datasets.
+That's it: a very simple but direct means of extracting the latent structure of a geographic distribution. Once you have the points of interest, it is possible to subset the original comments based on proximity, or compare against other geospatial datasets.

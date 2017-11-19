@@ -1,8 +1,8 @@
 # What caused the price of swans to crash in 1995?
 
-*This piece was originally published on on the now-defunct blog, Questionable Economics. It is included here as part of a selection of my favorite posts from that site.*
+*This piece was originally published on on the blog, Questionable Economics. It is included here as part of a selection of my favorite posts from that site.*
 
-You probably missed it: a major sector of the U.S. economy crashed in 1995 and has only recently recovered to pre-crisis levels, but according to a notable economic indicator,. 
+You probably missed it: according to a notable economic indicator, a major sector of the U.S. economy crashed in 1995 and has only recently recovered to pre-crisis levels. 
 
 The indicator in question is the [Christmas Price Index]( https://www.pncchristmaspriceindex.com/) (CPI-XMAS), and the sector is the market for swans. Every December, a group of economists at PNC Bank calculates this very special price index based. Like any price index, CPI-XMAS measures the total price of a basket of goods from year to year in order to estimate changes in the overall price level of the economy. Other, less whimsical, indices look at sets of common producer inputs and consumer goods such as [cartons of eggs](http://data.bls.gov/timeseries/APU0000708111?data_tool=XGtable), [gallons of gasoline](http://data.bls.gov/timeseries/APU00007471A?data_tool=XGtable), or [tons of cold-rolled steel](http://data.bls.gov/timeseries/WPU10170702?data_tool=XGtable). The basket for the Christmas Price Index is based entirely on the set of gifts described in "The 12 Days of Christmas." 
 
@@ -22,7 +22,7 @@ As luck would have it, mute swans, the very swans cited in the Christmas Price I
 
 The relationship is significant and negative. In other words, as the price of swans fell, the quantity of swans provided increased. This strongly suggests that a supply shock of some kind caused the 1995 price crash. David Miller, an avian expert at the National Aviary, shared his interpretation:
 
->In [1995], swan breeders, for some reason unknown to me, increased in number. A drop in the sale value to $500 could be due to a change in demand or an influx of breeders in a competitive market dropping the price for a short period of time. The new breeders couldn’t sustain that cost for long, so they faded away, leaving the long-term breeders to sustain the market. That’s the only explanation I can see for that time period.
+>In 1995, swan breeders, for some reason unknown to me, increased in number. A drop in the sale value to $500 could be due to a change in demand or an influx of breeders in a competitive market dropping the price for a short period of time. The new breeders couldn’t sustain that cost for long, so they faded away, leaving the long-term breeders to sustain the market. That’s the only explanation I can see for that time period.
 
 ## Another explanation: It's New York's fault
 

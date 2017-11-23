@@ -1,0 +1,2384 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 10400.17.1103.1137                               -->
+<workbook original-version='10.4' source-build='10.4.1 (10400.17.1103.1137)' source-platform='win' version='10.4' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='BeerSample' inline='true' name='federated.0jkuguw07o6lf917g5rmn14albfc' version='10.4'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='BeerSample' name='textscan.1csxvk01wrqbot1eghs681jkrxmj'>
+            <connection class='textscan' directory='C:/Users/dhene/Desktop/BeerSample' filename='BeerSample.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1csxvk01wrqbot1eghs681jkrxmj' name='BeerSample.csv' table='[BeerSample#csv]' type='table'>
+          <columns character-set='windows-1252' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='page' ordinal='0' />
+            <column datatype='string' name='id' ordinal='1' />
+            <column datatype='string' name='name' ordinal='2' />
+            <column datatype='string' name='description' ordinal='3' />
+            <column datatype='string' name='availability' ordinal='4' />
+            <column datatype='real' name='abv' ordinal='5' />
+            <column datatype='real' name='ibu' ordinal='6' />
+            <column datatype='string' name='brewer_id' ordinal='7' />
+            <column datatype='string' name='brewer_name' ordinal='8' />
+            <column datatype='integer' name='style_id' ordinal='9' />
+            <column datatype='string' name='style_name' ordinal='10' />
+            <column datatype='integer' name='category_id' ordinal='11' />
+            <column datatype='string' name='category_name' ordinal='12' />
+            <column datatype='string' name='srm_id' ordinal='13' />
+            <column datatype='string' name='srm_color' ordinal='14' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>page</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[page]</local-name>
+            <parent-name>[BeerSample.csv]</parent-name>
+            <remote-alias>page</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[BeerSample.csv]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[name]</local-name>
+            <parent-name>[BeerSample.csv]</parent-name>
+            <remote-alias>name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>description</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[description]</local-name>
+            <parent-name>[BeerSample.csv]</parent-name>
+            <remote-alias>description</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>availability</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[availability]</local-name>
+            <parent-name>[BeerSample.csv]</parent-name>
+            <remote-alias>availability</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>abv</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[abv]</local-name>
+            <parent-name>[BeerSample.csv]</parent-name>
+            <remote-alias>abv</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;double&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ibu</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ibu]</local-name>
+            <parent-name>[BeerSample.csv]</parent-name>
+            <remote-alias>ibu</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;double&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>brewer_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[brewer_id]</local-name>
+            <parent-name>[BeerSample.csv]</parent-name>
+            <remote-alias>brewer_id</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>brewer_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[brewer_name]</local-name>
+            <parent-name>[BeerSample.csv]</parent-name>
+            <remote-alias>brewer_name</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>style_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[style_id]</local-name>
+            <parent-name>[BeerSample.csv]</parent-name>
+            <remote-alias>style_id</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>style_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[style_name]</local-name>
+            <parent-name>[BeerSample.csv]</parent-name>
+            <remote-alias>style_name</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>category_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[category_id]</local-name>
+            <parent-name>[BeerSample.csv]</parent-name>
+            <remote-alias>category_id</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>category_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[category_name]</local-name>
+            <parent-name>[BeerSample.csv]</parent-name>
+            <remote-alias>category_name</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>srm_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[srm_id]</local-name>
+            <parent-name>[BeerSample.csv]</parent-name>
+            <remote-alias>srm_id</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>srm_color</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[srm_color]</local-name>
+            <parent-name>[BeerSample.csv]</parent-name>
+            <remote-alias>srm_color</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[BeerSample.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;windows-1252&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='log(ABV)' datatype='real' name='[Calculation_7760828063935762432]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='log([abv])' />
+      </column>
+      <column datatype='string' name='[Category Name (group)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[category_name]' new-bin='true'>
+          <bin default-name='true' value='&quot;North American Lager &amp; North American Origin Ales&quot;'>
+            <value>&quot;North American Lager&quot;</value>
+            <value>&quot;North American Origin Ales&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='string' name='[Srm Color (group)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[srm_color]' new-bin='true'>
+          <bin default-name='true' value='&quot;\#000000, \#6A0E00, \#8E2900 and 18 more&quot;'>
+            <value>&quot;\#000000&quot;</value>
+            <value>&quot;\#6A0E00&quot;</value>
+            <value>&quot;\#8E2900&quot;</value>
+            <value>&quot;\#952D00&quot;</value>
+            <value>&quot;\#A13700&quot;</value>
+            <value>&quot;\#A63E00&quot;</value>
+            <value>&quot;\#B04500&quot;</value>
+            <value>&quot;\#B54C00&quot;</value>
+            <value>&quot;\#BB5100&quot;</value>
+            <value>&quot;\#C35900&quot;</value>
+            <value>&quot;\#CB6200&quot;</value>
+            <value>&quot;\#CF6900&quot;</value>
+            <value>&quot;\#D77200&quot;</value>
+            <value>&quot;\#DE7C00&quot;</value>
+            <value>&quot;\#E58500&quot;</value>
+            <value>&quot;\#EA8F00&quot;</value>
+            <value>&quot;\#F39C00&quot;</value>
+            <value>&quot;\#F8A600&quot;</value>
+            <value>&quot;\#FBB123&quot;</value>
+            <value>&quot;\#FFBF42&quot;</value>
+            <value>&quot;\#FFCA5A&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column caption='Abv' datatype='real' name='[abv]' role='measure' type='quantitative' />
+      <column caption='Availability' datatype='string' name='[availability]' role='dimension' type='nominal' />
+      <column caption='Brewer Id' datatype='string' name='[brewer_id]' role='dimension' type='nominal' />
+      <column caption='Brewer Name' datatype='string' name='[brewer_name]' role='dimension' type='nominal' />
+      <column caption='Category Id' datatype='integer' name='[category_id]' role='dimension' type='ordinal' />
+      <column caption='Category Name' datatype='string' name='[category_name]' role='dimension' type='nominal' />
+      <column caption='Description' datatype='string' name='[description]' role='dimension' type='nominal' />
+      <column caption='Ibu' datatype='real' name='[ibu]' role='measure' type='quantitative' />
+      <column caption='Id' datatype='string' name='[id]' role='dimension' type='nominal' />
+      <column caption='log(IBU)' datatype='real' name='[log(ABV) (copy)]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='log([ibu])' />
+      </column>
+      <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+      <column caption='Page' datatype='integer' name='[page]' role='measure' type='quantitative' />
+      <column caption='Srm Color' datatype='string' name='[srm_color]' role='dimension' type='nominal' />
+      <column caption='Srm Id' datatype='string' name='[srm_id]' role='dimension' type='nominal' />
+      <column caption='Style Id' datatype='integer' name='[style_id]' role='dimension' type='ordinal' />
+      <column caption='Style Name' datatype='string' name='[style_name]' role='dimension' type='nominal' />
+      <column-instance column='[Calculation_7760828063935762432]' derivation='None' name='[none:Calculation_7760828063935762432:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[abv]' derivation='None' name='[none:abv:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[ibu]' derivation='None' name='[none:ibu:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[log(ABV) (copy)]' derivation='None' name='[none:log(ABV) (copy):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[style_name]' derivation='None' name='[none:style_name:nk]' pivot='key' type='nominal' />
+      <group hidden='true' name='[Exclusions (Abv,Ibu,Style Name)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:abv:qk]' />
+          <groupfilter function='level-members' level='[none:ibu:qk]' />
+          <groupfilter function='level-members' level='[none:style_name:nk]' />
+        </groupfilter>
+      </group>
+      <group hidden='true' name='[Exclusions (log(ABV),log(IBU),Style Name)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Calculation_7760828063935762432:qk]' />
+          <groupfilter function='level-members' level='[none:log(ABV) (copy):qk]' />
+          <groupfilter function='level-members' level='[none:style_name:nk]' />
+        </groupfilter>
+      </group>
+      <layout dim-ordering='alphabetic' dim-percentage='0.607053' measure-ordering='alphabetic' measure-percentage='0.392947' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:style_name:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;American Imperial Stout&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;BBL Aged Strong&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Brett&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Eisbock&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;German Pilsener&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Leichtesweizen&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Scottish Heavy&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Wet Hop Ale&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Aged Beer&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;American/Belgian Pale&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Bernsteinfarbenesweizen&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Dark Wheat Ale&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Field Beer&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;International Pale&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Pumpkin Beer&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Stout&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;American Barleywine&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;BBL Aged&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Blonde&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Dry Irish Stout&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Fruit Beer&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Kölsch&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Saison&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Traditional&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;American Low-Carb Lager&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Belgian Dubbel&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;California Common&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;English IPA&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Gueuze&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Märzen&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Session IPA&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Witbier&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;American IPA&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Belgian Ale&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;British Barleywine&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;English Brown&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;German Rye&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Leipzig Gose&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Scottish Light&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Wheat Ale&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;American Brown&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;BBL Aged Dark&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Bock&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Dry Lager&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Fruit Cider&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Kristallweizen&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Schwarzbier&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Tropical Light Lager&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;American Strong Pale&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Belgian Tripel&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Cream Ale&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Experimental Beer&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Imperial Red&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Oktoberfest&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Specialty Cider&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Altbier&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Apple Wine&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Bière de Garde&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Doppelbock&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Flanders Red&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;International Pilsener&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Rauchbier&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Strong Ale&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;American Premium Lager&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Belgian Quad&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Common Cider&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;ESB&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Honey Beer&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Non-Alcoholic&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Special Bitter&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;American Dark Lager&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;BBL Aged Pale&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Bohemian Pilsener&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Dry Mead&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Fruit Lambic&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Lambic&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Scotch Ale&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Vienna Lager&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;American Oktoberfest&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Belgian Fruit&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Chili Beer&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;English Pale&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Hefeweizen&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Mead&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Smoke Beer&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;American Pale&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Belgian Pale&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Chocolate Beer&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;English Pale Mild&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Helles&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;NA&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Smoke Porter&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;American Stout&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Belgian Table Beer&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Contemporary Gose&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Euro Dark&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Imperial IPA&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Oatmeal Stout&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Specialty&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;American/Belgian Dark&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Berlinerweisse&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Cyser&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Export Stout&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Indigenous Beer&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Old Ale&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Spice Beer&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;American Lager&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Belgian Blonde&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;British Imperial Stout&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;English Cider&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Gluten-Free Beer&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Maibock&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Semi-Sweet Mead&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Wheatwine&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;American Imperial Porter&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;BBL Aged Sour&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Braggot&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Dunkelweizen&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Fruit Wheat Ale&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Leichtbier&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Scottish Export&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Weizenbock&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Amber&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Austrailian Pale&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Bitter&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Dortmunder&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Flavored Malt Beverage&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Irish Red&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Robust Porter&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Sweet Mead&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;American Pilsener&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Belgian Pale Strong&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Coffee Beer&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;English Summer Ale&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Helles Rauchbier&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;New England Cider&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Sour&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;American Light Lager&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Belgian Dark Strong&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Brown Porter&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;English Dark Mild&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Grodziskie&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Malt Liquor&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Session&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Wild Beer&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;American Amber Lager&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Baltic Porter&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Black Ale&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Double Red&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;French Cider&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Kellerbier&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Rye Ale&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Sweet Stout&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <shared-views>
+    <shared-view name='federated.0jkuguw07o6lf917g5rmn14albfc'>
+      <datasources>
+        <datasource caption='BeerSample' name='federated.0jkuguw07o6lf917g5rmn14albfc' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0jkuguw07o6lf917g5rmn14albfc'>
+        <column caption='Category Name' datatype='string' name='[category_name]' role='dimension' type='nominal' />
+        <column caption='Ibu' datatype='real' name='[ibu]' role='measure' type='quantitative' />
+        <column-instance column='[category_name]' derivation='None' name='[none:category_name:nk]' pivot='key' type='nominal' />
+        <column-instance column='[ibu]' derivation='None' name='[none:ibu:qk]' pivot='key' type='quantitative' />
+        <column-instance column='[style_name]' derivation='None' name='[none:style_name:nk]' pivot='key' type='nominal' />
+        <column caption='Style Name' datatype='string' name='[style_name]' role='dimension' type='nominal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.0jkuguw07o6lf917g5rmn14albfc].[none:category_name:nk]'>
+        <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+          <groupfilter function='member' level='[none:category_name:nk]' member='&quot;North American Lager&quot;' />
+          <groupfilter function='member' level='[none:category_name:nk]' member='&quot;North American Origin Ales&quot;' />
+        </groupfilter>
+      </filter>
+      <filter class='quantitative' column='[federated.0jkuguw07o6lf917g5rmn14albfc].[none:ibu:qk]' included-values='in-range'>
+        <min>1.0900000000000001</min>
+        <max>200.0</max>
+      </filter>
+      <filter class='categorical' column='[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]'>
+        <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+          <groupfilter function='level-members' level='[none:style_name:nk]' />
+          <groupfilter function='union'>
+            <groupfilter function='member' level='[none:style_name:nk]' member='&quot;American Amber Lager&quot;' />
+            <groupfilter function='member' level='[none:style_name:nk]' member='&quot;American Barleywine&quot;' />
+            <groupfilter function='member' level='[none:style_name:nk]' member='&quot;American Brown&quot;' />
+            <groupfilter function='member' level='[none:style_name:nk]' member='&quot;American Dark Lager&quot;' />
+            <groupfilter function='member' level='[none:style_name:nk]' member='&quot;American Imperial Porter&quot;' />
+            <groupfilter function='member' level='[none:style_name:nk]' member='&quot;American Imperial Stout&quot;' />
+            <groupfilter function='member' level='[none:style_name:nk]' member='&quot;American Lager&quot;' />
+            <groupfilter function='member' level='[none:style_name:nk]' member='&quot;American Light Lager&quot;' />
+            <groupfilter function='member' level='[none:style_name:nk]' member='&quot;American Oktoberfest&quot;' />
+            <groupfilter function='member' level='[none:style_name:nk]' member='&quot;American Pilsener&quot;' />
+            <groupfilter function='member' level='[none:style_name:nk]' member='&quot;American Premium Lager&quot;' />
+            <groupfilter function='member' level='[none:style_name:nk]' member='&quot;American Stout&quot;' />
+            <groupfilter function='member' level='[none:style_name:nk]' member='&quot;American Strong Pale&quot;' />
+            <groupfilter function='member' level='[none:style_name:nk]' member='&quot;American/Belgian Dark&quot;' />
+            <groupfilter function='member' level='[none:style_name:nk]' member='&quot;American/Belgian Pale&quot;' />
+            <groupfilter function='member' level='[none:style_name:nk]' member='&quot;Black Ale&quot;' />
+            <groupfilter function='member' level='[none:style_name:nk]' member='&quot;Imperial Red&quot;' />
+            <groupfilter function='member' level='[none:style_name:nk]' member='&quot;Malt Liquor&quot;' />
+            <groupfilter function='member' level='[none:style_name:nk]' member='&quot;Session IPA&quot;' />
+            <groupfilter function='member' level='[none:style_name:nk]' member='&quot;Smoke Porter&quot;' />
+            <groupfilter function='member' level='[none:style_name:nk]' member='&quot;Sour&quot;' />
+            <groupfilter function='member' level='[none:style_name:nk]' member='&quot;Stout&quot;' />
+            <groupfilter function='member' level='[none:style_name:nk]' member='&quot;Wet Hop Ale&quot;' />
+            <groupfilter function='member' level='[none:style_name:nk]' member='&quot;Wheatwine&quot;' />
+          </groupfilter>
+        </groupfilter>
+      </filter>
+    </shared-view>
+  </shared-views>
+  <worksheets>
+    <worksheet name='ScatterPlot'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='BeerSample' name='federated.0jkuguw07o6lf917g5rmn14albfc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jkuguw07o6lf917g5rmn14albfc'>
+            <column caption='log(ABV)' datatype='real' name='[Calculation_7760828063935762432]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='log([abv])' />
+            </column>
+            <column caption='Abv' datatype='real' name='[abv]' role='measure' type='quantitative' />
+            <column caption='Category Name' datatype='string' name='[category_name]' role='dimension' type='nominal' />
+            <column caption='Ibu' datatype='real' name='[ibu]' role='measure' type='quantitative' />
+            <column caption='log(IBU)' datatype='real' name='[log(ABV) (copy)]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='log([ibu])' />
+            </column>
+            <column-instance column='[Calculation_7760828063935762432]' derivation='None' name='[none:Calculation_7760828063935762432:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[category_name]' derivation='None' name='[none:category_name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[ibu]' derivation='None' name='[none:ibu:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[log(ABV) (copy)]' derivation='None' name='[none:log(ABV) (copy):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[style_name]' derivation='None' name='[none:style_name:nk]' pivot='key' type='nominal' />
+            <column caption='Style Name' datatype='string' name='[style_name]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0jkuguw07o6lf917g5rmn14albfc].[Exclusions (log(ABV),log(IBU),Style Name)]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='level-members' level='[none:Calculation_7760828063935762432:qk]' />
+                <groupfilter function='level-members' level='[none:log(ABV) (copy):qk]' />
+                <groupfilter function='level-members' level='[none:style_name:nk]' />
+              </groupfilter>
+              <groupfilter function='reorder-dimensionality'>
+                <groupfilter function='union'>
+                  <groupfilter function='crossjoin'>
+                    <groupfilter function='member' level='[none:style_name:nk]' member='&quot;American Pale&quot;' />
+                    <groupfilter function='crossjoin'>
+                      <groupfilter function='member' level='[none:log(ABV) (copy):qk]' member='0.77815125038364363' />
+                      <groupfilter function='member' level='[none:Calculation_7760828063935762432:qk]' member='0.77085201164214423' />
+                    </groupfilter>
+                  </groupfilter>
+                  <groupfilter function='crossjoin'>
+                    <groupfilter function='member' level='[none:style_name:nk]' member='&quot;Blonde&quot;' />
+                    <groupfilter function='union'>
+                      <groupfilter function='crossjoin'>
+                        <groupfilter function='member' level='[none:log(ABV) (copy):qk]' member='0.77815125038364363' />
+                        <groupfilter function='member' level='[none:Calculation_7760828063935762432:qk]' member='0.6020599913279624' />
+                      </groupfilter>
+                      <groupfilter function='crossjoin'>
+                        <groupfilter function='member' level='[none:log(ABV) (copy):qk]' member='0.84509804001425681' />
+                        <groupfilter function='member' level='[none:Calculation_7760828063935762432:qk]' member='0.68124123737558717' />
+                      </groupfilter>
+                    </groupfilter>
+                  </groupfilter>
+                  <groupfilter function='crossjoin'>
+                    <groupfilter function='member' level='[none:style_name:nk]' member='&quot;Imperial IPA&quot;' />
+                    <groupfilter function='union'>
+                      <groupfilter function='crossjoin'>
+                        <groupfilter function='member' level='[none:log(ABV) (copy):qk]' member='0.037426497940623665' />
+                        <groupfilter function='member' level='[none:Calculation_7760828063935762432:qk]' member='1.0' />
+                      </groupfilter>
+                      <groupfilter function='crossjoin'>
+                        <groupfilter function='member' level='[none:log(ABV) (copy):qk]' member='2.0791812460476247' />
+                        <groupfilter function='member' level='[none:Calculation_7760828063935762432:qk]' member='1.255272505103306' />
+                      </groupfilter>
+                    </groupfilter>
+                  </groupfilter>
+                </groupfilter>
+                <order>
+                  <hierarchy name='[none:Calculation_7760828063935762432:qk]' />
+                  <hierarchy name='[none:log(ABV) (copy):qk]' />
+                  <hierarchy name='[none:style_name:nk]' />
+                </order>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <sort class='manual' column='[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Blonde&quot;</bucket>
+              <bucket>&quot;Amber&quot;</bucket>
+              <bucket>&quot;American Pale&quot;</bucket>
+              <bucket>&quot;American IPA&quot;</bucket>
+              <bucket>&quot;Imperial IPA&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </sort>
+          <slices>
+            <column>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:category_name:nk]</column>
+            <column>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:ibu:qk]</column>
+            <column>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</column>
+            <column>[federated.0jkuguw07o6lf917g5rmn14albfc].[Exclusions (log(ABV),log(IBU),Style Name)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='814' />
+                <format attr='maxwidth' value='814' />
+                <format attr='minheight' value='718' />
+                <format attr='maxheight' value='718' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:log(ABV) (copy):qk]</rows>
+        <cols>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:Calculation_7760828063935762432:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='BeerSample' name='federated.0jkuguw07o6lf917g5rmn14albfc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jkuguw07o6lf917g5rmn14albfc'>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column caption='Category Name' datatype='string' name='[category_name]' role='dimension' type='nominal' />
+            <column caption='Ibu' datatype='real' name='[ibu]' role='measure' type='quantitative' />
+            <column-instance column='[category_name]' derivation='None' name='[none:category_name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[ibu]' derivation='None' name='[none:ibu:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[style_name]' derivation='None' name='[none:style_name:nk]' pivot='key' type='nominal' />
+            <column caption='Style Name' datatype='string' name='[style_name]' role='dimension' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <sort class='computed' column='[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]' direction='DESC' using='[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]' />
+          <slices>
+            <column>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:category_name:nk]</column>
+            <column>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:ibu:qk]</column>
+            <column>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</rows>
+        <cols>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='BeerSample' name='federated.0jkuguw07o6lf917g5rmn14albfc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jkuguw07o6lf917g5rmn14albfc'>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column datatype='string' name='[Srm Color (group)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[srm_color]' new-bin='true'>
+                <bin default-name='true' value='&quot;\#000000, \#6A0E00, \#8E2900 and 18 more&quot;'>
+                  <value>&quot;\#000000&quot;</value>
+                  <value>&quot;\#6A0E00&quot;</value>
+                  <value>&quot;\#8E2900&quot;</value>
+                  <value>&quot;\#952D00&quot;</value>
+                  <value>&quot;\#A13700&quot;</value>
+                  <value>&quot;\#A63E00&quot;</value>
+                  <value>&quot;\#B04500&quot;</value>
+                  <value>&quot;\#B54C00&quot;</value>
+                  <value>&quot;\#BB5100&quot;</value>
+                  <value>&quot;\#C35900&quot;</value>
+                  <value>&quot;\#CB6200&quot;</value>
+                  <value>&quot;\#CF6900&quot;</value>
+                  <value>&quot;\#D77200&quot;</value>
+                  <value>&quot;\#DE7C00&quot;</value>
+                  <value>&quot;\#E58500&quot;</value>
+                  <value>&quot;\#EA8F00&quot;</value>
+                  <value>&quot;\#F39C00&quot;</value>
+                  <value>&quot;\#F8A600&quot;</value>
+                  <value>&quot;\#FBB123&quot;</value>
+                  <value>&quot;\#FFBF42&quot;</value>
+                  <value>&quot;\#FFCA5A&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column caption='Category Name' datatype='string' name='[category_name]' role='dimension' type='nominal' />
+            <column caption='Ibu' datatype='real' name='[ibu]' role='measure' type='quantitative' />
+            <column-instance column='[category_name]' derivation='None' name='[none:category_name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[ibu]' derivation='None' name='[none:ibu:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[style_name]' derivation='None' name='[none:style_name:nk]' pivot='key' type='nominal' />
+            <column caption='Srm Color' datatype='string' name='[srm_color]' role='dimension' type='nominal' />
+            <column caption='Style Name' datatype='string' name='[style_name]' role='dimension' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:category_name:nk]</column>
+            <column>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:ibu:qk]</column>
+            <column>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.0jkuguw07o6lf917g5rmn14albfc].[Srm Color (group)]' value='324' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0jkuguw07o6lf917g5rmn14albfc].[Srm Color (group)]</rows>
+        <cols>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</cols>
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='ScatterPlot'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='300'>
+            <card pane-specification-id='0' param='[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:Calculation_7760828063935762432:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:log(ABV) (copy):qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:Calculation_7760828063935762432:qk]</field>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:log(ABV) (copy):qk]</field>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>0.77085201164214423</value>
+                <value>0.77815125038364363</value>
+                <value>&quot;American Pale&quot;</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:Calculation_7760828063935762432:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:log(ABV) (copy):qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:Calculation_7760828063935762432:qk]</field>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:log(ABV) (copy):qk]</field>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>0.68124123737558717</value>
+                <value>0.84509804001425681</value>
+                <value>&quot;Blonde&quot;</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:Calculation_7760828063935762432:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:log(ABV) (copy):qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:Calculation_7760828063935762432:qk]</field>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:log(ABV) (copy):qk]</field>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>0.6020599913279624</value>
+                <value>0.77815125038364363</value>
+                <value>&quot;Blonde&quot;</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:category_name:nk]</field>
+            <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:ibu:qk]</field>
+            <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Malt Liquor&quot;</value>
+                <value>1</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Smoke Porter&quot;</value>
+                <value>2</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;American/Belgian Pale&quot;</value>
+                <value>2</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;American/Belgian Dark&quot;</value>
+                <value>2</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;American Premium Lager&quot;</value>
+                <value>2</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Wheatwine&quot;</value>
+                <value>5</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;American Light Lager&quot;</value>
+                <value>5</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;American Dark Lager&quot;</value>
+                <value>5</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Wet Hop Ale&quot;</value>
+                <value>6</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;American Strong Pale&quot;</value>
+                <value>7</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;American Oktoberfest&quot;</value>
+                <value>7</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;American Imperial Porter&quot;</value>
+                <value>11</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Imperial Red&quot;</value>
+                <value>12</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;American Amber Lager&quot;</value>
+                <value>15</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Stout&quot;</value>
+                <value>16</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;American Pilsener&quot;</value>
+                <value>18</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Black Ale&quot;</value>
+                <value>20</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Session IPA&quot;</value>
+                <value>22</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;American Lager&quot;</value>
+                <value>24</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Sour&quot;</value>
+                <value>28</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;American Stout&quot;</value>
+                <value>34</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;American Barleywine&quot;</value>
+                <value>45</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;American Brown&quot;</value>
+                <value>50</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+                  <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[sum:Number of Records:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;American Imperial Stout&quot;</value>
+                <value>62</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:style_name:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0jkuguw07o6lf917g5rmn14albfc].[none:srm_color:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='ScatterPlot' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='179' name='Sheet 2' width='192'>
+      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
+      Y5LYqQAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='119' name='Sheet 3' width='192'>
+      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
+      rkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>

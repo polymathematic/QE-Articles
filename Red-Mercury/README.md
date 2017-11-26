@@ -22,7 +22,7 @@ The real world is more complicated. Used car quality varies continuously and acr
 
 Continuous quality and buyer risk aversion can be [modeled](http://www-users.york.ac.uk/~jdh1/micro%202/lectures/me34.htm) with a variation on the simple supply and demand model. In the model, the effects of asymmetric information are represented by a backward bending of the demand curve.
 
-![Adverse_selection](/content/images/2017/11/Adverse_selection.png)
+![Adverse_selection](/Visuals/Adverse_selection.png)
 
 This chart has four demand curves and four possible market equilibria representing four states of information asymmetry. D<sub>0</sub> is a normal demand curve, which assumes both buyer and seller have perfect information. Under these assumptions, the market reaches equilibrium at point A. D<sub>1</sub> and D<sub>2</sub> represent situations in which information asymmetry exists, but still allows the market to clear at the less efficient points, C, B, and D. Interestingly, D<sub>1</sub> has two stable equilibrium points suggesting that shocks in the quality of goods available on the market can cause permanent changes in equilibrium price and quantity. D<sub>3</sub> represents the point at which the effect of the information asymmetry is severe enough to prevent all transactions.
  

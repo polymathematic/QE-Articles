@@ -18,7 +18,7 @@ Here's the bottom line up front: the five areas with the highest (relative) dens
 4. The Metropolitan Branch Trail crossing at Monroe Street ([link](https://www.google.com/maps/@38.93223,-76.9949797,3a,75y,18.99h,83.31t/data=!3m6!1e1!3m4!1sx3oMSNP5mNFpKaIuivkuLg!2e0!7i13312!8i6656))
 5. The intersection of Michigan Avenue and 10th Street NE ([link](https://www.google.com/maps/@38.935459,-76.993003,3a,75y,181.65h,80.95t/data=!3m7!1e1!3m5!1sZam189MqE2OwAHPk-kiBwg!2e0!6s%2F%2Fgeo3.ggpht.com%2Fcbk%3Fpanoid%3DZam189MqE2OwAHPk-kiBwg%26output%3Dthumbnail%26cb_client%3Dmaps_sv.tactile.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D143.30801%26pitch%3D0!7i13312!8i6656))
 
-![](/CTMM-Study/Visuals/DCMultiModalStudy.png)
+![](/CTMM-Study/Graphics/DCMultiModalStudy.png)
 
 This is an intuitive finding. As a cyclist and pedestrian in the area, I have a lot of thoughts on 2, 4, and 5. Trying to cross Monroe near the bridge in the morning is a good way to die.
 

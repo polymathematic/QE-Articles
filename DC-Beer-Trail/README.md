@@ -1,10 +1,10 @@
-# The best route for checking out DC’s breweries
+# The shortest route for checking out DC’s breweries
 
 *This article was originally published on [Greater Greater Washington](http://greatergreaterwashington.org/post/33715/this-is-the-best-route-for-checking-out-dcs-breweries/).*
 
 It's [DC beer week](http://dcbeerweek.net/), an annual event that celebrates local brewers, who add to the region's character and economy. There are ten brewers in DC plus one just across the border in Silver Spring. To see them all while minimizing travel time, a genetic algorithm has determined the best route.
 
-![](/DC-Beer-Trail/Visuals/dcbt.png)
+![](/DC-Beer-Trail/Graphics/dcbt.png)
 
 These are the breweries on the trail, which I selected by narrowing down Kate Rabinowitz's dataset of over [70 breweries and brewpubs around DC](http://www.datalensdc.com/DC-region-breweries.html):
 

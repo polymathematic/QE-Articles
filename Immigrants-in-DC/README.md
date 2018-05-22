@@ -12,11 +12,11 @@ But beyond this, there are differences in how many immigrants perform certain jo
 
 In Northern Virginia, nearly half (45%) of computer programmers are foreign born, as are nearly 40% of physicians and surgeons.
 
-![](/Immigrants-in-DC/Visuals/Virginia_FBLaborForce_byPOW.png)
+![](/Immigrants-in-DC/Graphics/Virginia_FBLaborForce_byPOW.png)
 
 In Maryland 65% of the medical scientists and 54% of physical scientists are immigrants. This is likely a result of the state’s strong biotechnology sector.
 
-![](/Immigrants-in-DC/Visuals/Maryland_FBLaborForce_byPOW.png)
+![](/Immigrants-in-DC/Graphics/Maryland_FBLaborForce_byPOW.png)
 
 The underlying data for these charts is taken from the [2015 American Community Survey 1-year PUMS data](https://www.census.gov/programs-surveys/acs/data/pums.html). Just as with DistrictMeasured’s analysis, I’ve only considered occupations with more than 3,000 workers in order to reduce sampling errors. In this case, median wages are taken from the ACS data rather than Bureau of Labor Statistic data. While less accurate, the resulting wage levels are still roughly in line with BLS estimates.
 

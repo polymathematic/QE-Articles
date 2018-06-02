@@ -1,7 +1,5 @@
 # The shortest route for checking out DC’s breweries
 
-*This article was originally published on [Greater Greater Washington](http://greatergreaterwashington.org/post/33715/this-is-the-best-route-for-checking-out-dcs-breweries/).*
-
 It's [DC beer week](http://dcbeerweek.net/), an annual event that celebrates local brewers, who add to the region's character and economy. There are ten brewers in DC plus one just across the border in Silver Spring. To see them all while minimizing travel time, a genetic algorithm has determined the best route.
 
 ![](/DC-Beer-Trail/Graphics/dcbt.png)
@@ -37,3 +35,5 @@ If seeing eleven brewers in a single day is not for you, or if you'd prefer to w
 If you're hungry by the end, grab some fantastic Neapolitan pizza at Menomale at 12th and Franklin NE before you get to Right Proper.
 
 All of these establishments are open on Saturday, and most stay open as late as 9 or 10 pm. Hellbender and Three Star, however, close much earlier at 7 and 5 pm, respectively. Plan accordingly.
+
+*This article was originally published on [Greater Greater Washington](http://greatergreaterwashington.org/post/33715/this-is-the-best-route-for-checking-out-dcs-breweries/).*

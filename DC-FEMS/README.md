@@ -1,7 +1,5 @@
 # Ambulances Response Times East of the Anacostia River
 
-*This article was originally published on [Greater Greater Washington](http://greatergreaterwashington.org/post/33374/ambulances-take-longer-to-reach-you-if-you-live-east-of-the-anacostia-river/).*
-
 Ambulances in DC generally take longer to respond to neighborhoods east of the Anacostia River, and the river itself seems to be part of the cause. According to data obtained from DC Fire and Emergency Medical Services (FEMS) under the Freedom of Information Act, areas of the city where the proportion of all critical 911 calls where an ambulance took more than 10 minutes to arrive at the scene from the time they were notified, tend to be clustered south of the Anacostia.
 
 ![](/DC-FEMS/Graphics/FEMS_500.png)
@@ -30,3 +28,4 @@ Traffic on bridges across the Anacostia—a problem [recent infrastructure chang
 
 Mr. Beaton indicates that since the contract with AMR started, response times have fallen city-wide. Any improvement is good, but increasing the number of ambulances on the road and [augmenting FEMS resources](https://www.washingtonpost.com/local/dc-considering-uber-in-place-of-ambulances-for-some-patients/2016/07/11/06ad0732-47b1-11e6-8dac-0c6e4accc5b1_story.html) are short-term improvements. They do not address the underlying structural issues: the chokepoint across the bridge and the dearth of trauma centers east of the Anacostia.
 
+*This article was originally published on [Greater Greater Washington](http://greatergreaterwashington.org/post/33374/ambulances-take-longer-to-reach-you-if-you-live-east-of-the-anacostia-river/).*

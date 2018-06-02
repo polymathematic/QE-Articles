@@ -80,4 +80,4 @@ pilesofCoal <- ggplot() + labs(title = toupper("Jevons Missed High"),
      caption = 'Source: "The Coal Question" by William Jevons, Gov.uk') + 
   GenerateThemeCC()
 
-exportPlot(pilesofCoal, path = "../Graphics", name = "PilesOfCoal")
+exportPlot(pilesofCoal, path = "../Graphics", name = "PilesOfCoal_Blank")

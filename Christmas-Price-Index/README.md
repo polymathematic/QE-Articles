@@ -18,7 +18,7 @@ There are two broad explanations for why the price of swans would crash: a deman
 
 As luck would have it, mute swans, the very swans cited in the Christmas Price Index, are an invasive species, and therefore subject to population monitoring. In 1985, the [Atlantic Flyway Council](http://www.flyways.us/) began conducting mute swan population surveys every three to four years along the east coast of the United States. The [Mute Swan Mid-Summer Survey (MSMSS)](http://www.portal.state.pa.us/portal/server.pt/document/1374270/2011_mute_swan_survey_results_pdf) does not attempt to count the whole population, but rather, estimates population growth by counting all swans in a small area. Below are the results of the MSMSS for Pennsylvania plotted against the price of swans as reported in CPI-XMAS for corresponding years:  
 
-![](/Christmas-Price-Index/Graphics/SwanMarket.png)
+![](/Christmas-Price-Index/Graphics/swanmarket.png)
 
 The relationship is significant and negative. In other words, as the price of swans fell, the quantity of swans provided increased. This strongly suggests that a supply shock of some kind caused the 1995 price crash. David Miller, an avian expert at the National Aviary, shared his interpretation:
 

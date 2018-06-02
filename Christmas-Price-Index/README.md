@@ -2,7 +2,7 @@
 
 *This piece was originally published on on the blog, Questionable Economics. It is included here as part of a selection of my favorite posts from that site.*
 
-You probably missed it: according to a notable economic indicator, a major sector of the U.S. economy crashed in 1995 and has only recently recovered to pre-crisis levels. 
+You probably missed it: according to a notable economic indicator, a sector of the U.S. economy crashed in 1995 and has only recently recovered to pre-crisis levels. 
 
 The indicator in question is the [Christmas Price Index](https://www.pncchristmaspriceindex.com/) (CPI-XMAS), and the sector is the market for swans. Every December, a group of economists at PNC Bank calculates this very special price index based. Like any price index, CPI-XMAS measures the total price of a basket of goods from year to year in order to estimate changes in the overall price level of the economy. Other, less whimsical, indices look at sets of common producer inputs and consumer goods such as [cartons of eggs](http://data.bls.gov/timeseries/APU0000708111?data_tool=XGtable), [gallons of gasoline](http://data.bls.gov/timeseries/APU00007471A?data_tool=XGtable), or [tons of cold-rolled steel](http://data.bls.gov/timeseries/WPU10170702?data_tool=XGtable). The basket for the Christmas Price Index is based entirely on the set of gifts described in "The 12 Days of Christmas." 
 
@@ -18,7 +18,7 @@ There are two broad explanations for why the price of swans would crash: a deman
 
 As luck would have it, mute swans, the very swans cited in the Christmas Price Index, are an invasive species, and therefore subject to population monitoring. In 1985, the [Atlantic Flyway Council](http://www.flyways.us/) began conducting mute swan population surveys every three to four years along the east coast of the United States. The [Mute Swan Mid-Summer Survey (MSMSS)](http://www.portal.state.pa.us/portal/server.pt/document/1374270/2011_mute_swan_survey_results_pdf) does not attempt to count the whole population, but rather, estimates population growth by counting all swans in a small area. Below are the results of the MSMSS for Pennsylvania plotted against the price of swans as reported in CPI-XMAS for corresponding years:  
 
-![](/Christmas-Price-Index/Graphics/swanmarket.png)
+![](/Christmas-Price-Index/Graphics/SwanMarket.png)
 
 The relationship is significant and negative. In other words, as the price of swans fell, the quantity of swans provided increased. This strongly suggests that a supply shock of some kind caused the 1995 price crash. David Miller, an avian expert at the National Aviary, shared his interpretation:
 

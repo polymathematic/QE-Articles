@@ -3,16 +3,13 @@ rm(list = ls())
 gc()
 
 #Load packages
-require(dhplot)
 require(ggplot2)
-require(ggthemes)
 require(extrafont)
-require(svglite)
+require(PlotCC)
+require(ggrepel)
 
 #Load font
-font_import(pattern = "Exo")
-y
-loadfonts(device = "win")
+LoadFontsCC()
 
 # Pull in Data
 coal_cons <- read.csv("../Data/Coalcons.csv", stringsAsFactors = FALSE)
@@ -24,53 +21,63 @@ coal_eff$eng_wrk <- (max(coal_eff$eng_eff, na.rm = TRUE) / coal_eff$eng_eff)
 # Adjust years 
 coal_cons$year_adj <- coal_cons$year - 1
 
-# Scatterplot over time
+#Create engine labels
+coal_eff$eng_label <- sprintf("%s\n%s",coal_eff$year,coal_eff$eng_name)
+
+# Stepped line
 coal_dual <- ggplot() +
   geom_bar(width = 8,
            stat = "identity", 
            aes(x = year_adj, y = cpercap),
            data = coal_cons,
-           fill = '#2196f3') +
+           fill = palette_base_cc$reds['mid']) +
   geom_step(size = 1,
             aes(x = year,
                 y = KwH_100),
             data = coal_eff,
-            color = '#ff9800') +
-  geom_text(aes(x = year, y = KwH_100, label = eng_name),
-            data = coal_eff,
-            family = "Exo 2",
+            color = palette_base_cc$blues['mid']) +
+  geom_text(aes(x = year, y = KwH_100, label = trimws(eng_label)),
+            data = coal_eff[-nrow(coal_eff),],
+            family = "Roboto Mono",
             size = 3.5,
-            hjust = -.05,
-            vjust = -.7) + 
-  geom_text(aes(x = year, y = KwH_100, label = paste0(format(round(KwH_100, 1), nsmall = 1), " Tons")),
-            data = coal_eff,
-            family = "Exo 2",
+            hjust = 0,
+            nudge_x = .5,
+            vjust = -.3) + 
+  geom_text(aes(x = year, y = KwH_100, label = trimws(paste0(format(round(KwH_100, 1), nsmall = 1), " Tons"))),
+            data = coal_eff[-nrow(coal_eff),],
+            family = "Roboto Mono",
             size = 3.5,
-            hjust = -.3,
-            vjust = 1) + 
-  geom_text(aes(x = year, y = cpercap, label = paste0(format(round(cpercap, 1), nsmall = 1), " Tons")),
+            hjust = 0,
+            nudge_x = .5,
+            vjust = 1.5) + 
+  geom_text(aes(x = year, y = cpercap, label = trimws(paste0(format(round(cpercap, 1), nsmall = 1), " Tons"))),
             data = coal_cons,
-            family = "Exo 2",
-            color = '#f1f1f1',
+            family = "Roboto Mono",
+            color = '#ffffff',
             size = 3.5,
-            vjust = 1.2) +
-  scale_x_continuous(limits = c(1774,1866),    
+            hjust =  .65,
+            vjust = 1.7) +
+  scale_x_continuous(name = NULL,
+                     limits = c(1774,1866.5),    
                      expand = c(0,0),
                      breaks = 1780 + 10*(0:9)) + 
   scale_y_continuous(name = 'Tons of Coal',
-                     limits = c(0,13),
+                     limits = c(0,13.5),
                      breaks = (1:13),
                      expand = c(0,0)) +
-  dh_bar(xlab = FALSE) +
-  ggtitle("Jevons' Paradox",
-          "19th century coal consumption increased with advances in steam engine efficiency") +
-  labs(caption = 'SOURCE: "The Coal Question" by William Jevons')
+  labs(title = toupper("Jevons' Paradox"),
+       subtitle = toupper("Advances in steam engine efficiency and per-capita coal use"),
+       caption = 'Source: "The Coal Question" by William Jevons') + 
+  GenerateThemeCC()
 
 coal_dual
 
-svglite(file = '../Visuals/coal.svg',
-        width = 800/72)
-coal_dual
-dev.off()
+exportPlot(coal_dual, path = "../Graphics", name = "JevonsParadox")
 
+#piles of Coal blank
+pilesofCoal <- ggplot() + labs(title = toupper("Jevons Missed High"),
+     subtitle = toupper("Actual 1961 UK coal use versus Jevon's forecast"),
+     caption = 'Source: "The Coal Question" by William Jevons, Gov.uk') + 
+  GenerateThemeCC()
 
+exportPlot(pilesofCoal, path = "../Graphics", name = "PilesOfCoal")

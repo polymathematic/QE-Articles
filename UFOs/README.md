@@ -1,7 +1,5 @@
 # UFO Sightings in the United States
 
-*This piece was originally published on on the blog, Questionable Economics. It is included here as part of a selection of my favorite posts from that site.*
-
 Aliens exist.
 
 This is clear from the extensive body of anecdotal evidence supporting the existence of extra-terrestrial beings. Consider this account from Prescott, Arizona on March 19, 1997:

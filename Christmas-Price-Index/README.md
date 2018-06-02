@@ -1,7 +1,5 @@
 # What caused the price of swans to crash in 1995?
 
-*This piece was originally published on on the blog, Questionable Economics. It is included here as part of a selection of my favorite posts from that site.*
-
 You probably missed it: according to a notable economic indicator, a sector of the U.S. economy crashed in 1995 and has only recently recovered to pre-crisis levels. 
 
 The indicator in question is the [Christmas Price Index](https://www.pncchristmaspriceindex.com/) (CPI-XMAS), and the sector is the market for swans. Every December, a group of economists at PNC Bank calculates this very special price index based. Like any price index, CPI-XMAS measures the total price of a basket of goods from year to year in order to estimate changes in the overall price level of the economy. Other, less whimsical, indices look at sets of common producer inputs and consumer goods such as [cartons of eggs](http://data.bls.gov/timeseries/APU0000708111?data_tool=XGtable), [gallons of gasoline](http://data.bls.gov/timeseries/APU00007471A?data_tool=XGtable), or [tons of cold-rolled steel](http://data.bls.gov/timeseries/WPU10170702?data_tool=XGtable). The basket for the Christmas Price Index is based entirely on the set of gifts described in "The 12 Days of Christmas." 

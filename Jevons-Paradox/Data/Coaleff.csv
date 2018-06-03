@@ -1,7 +1,7 @@
-year,eng_eff,footlbs_21.6,KwH_100,eng_name
-1776,21.6,1,12.3,Watt's improved engine
-1788,26.6,0.812030075,10,Watt's engine working expansively
-1820,28,0.771428571,9.5,Engine improved by Cornish engineers
-1830,43.4,0.497695853,6.1,Avg. duty
-1859,54,0.4,4.9,Avg. duty
-1866,54,0.4,4.9,
+year,lbsForce_perBushel,eng_eff,footlbs_21.6,KwH_100,eng_name
+1776,21600,21.6,1,12.3,Watt's improved engine
+1788,26600,26.6,0.812030075,10,Watt's engine working expansively
+1820,28000,28,0.771428571,9.5,Engine improved by Cornish engineers
+1830,43350,43.4,0.497695853,6.1,Avg. duty
+1859,54000,54,0.4,4.9,Avg. duty
+1866,80000,54,0.4,4.9,

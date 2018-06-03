@@ -41,7 +41,7 @@
      showgrid="false"
      showguides="false"
      inkscape:zoom="0.75531915"
-     inkscape:cx="404.52786"
+     inkscape:cx="189.38702"
      inkscape:cy="183.7653"
      inkscape:window-x="0"
      inkscape:window-y="0"
@@ -111,10 +111,10 @@
     <text
        x="13.95"
        y="50.98"
-       style="font-size: 16.00px; font-weight: bold; fill: #383F51; font-family: Lato;"
-       textLength="423.19px"
+       style="font-weight:bold;font-size:16px;font-family:Lato;fill:#383f51"
+       textLength="423.19"
        lengthAdjust="spacingAndGlyphs"
-       id="text22">ACTUAL 1961 UK COAL USE VERSUS JEVON'S FORECAST</text>
+       id="text22">ACTUAL 1961 UK COAL USE VERSUS JEVONS' FORECAST</text>
   </g>
   <g
      clip-path="url(#cpMHw3NTJ8NDYwfDA=)"

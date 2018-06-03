@@ -66,7 +66,7 @@ coal_dual <- ggplot() +
                      breaks = (1:13),
                      expand = c(0,0)) +
   labs(title = toupper("Jevons' Paradox"),
-       subtitle = toupper("Advances in steam engine efficiency and per-capita coal use"),
+       subtitle = toupper("Advances in steam engine efficiency (Tons / 100kWh) and per-capita coal use"),
        caption = 'Source: "The Coal Question" by William Jevons') + 
   GenerateThemeCC()
 
@@ -76,7 +76,7 @@ exportPlot(coal_dual, path = "../Graphics", name = "JevonsParadox")
 
 #piles of Coal blank
 pilesofCoal <- ggplot() + labs(title = toupper("Jevons Missed High"),
-     subtitle = toupper("Actual 1961 UK coal use versus Jevon's forecast"),
+     subtitle = toupper("Actual 1961 UK coal use versus Jevons' forecast"),
      caption = 'Source: "The Coal Question" by William Jevons, Gov.uk') + 
   GenerateThemeCC()
 

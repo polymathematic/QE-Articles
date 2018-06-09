@@ -44,9 +44,9 @@ break.vec <- seq(1965, 2015, by = 5)
 
 #Plot Sightings per year
 plot <- ggplot(xfiles, aes(x = Year, y = Sightings)) +
-  annotate("segment", x = 1992.8, xend = 1983, y = 400, yend = 4000,
+  annotate("segment", x = 1992.8, xend = 1984, y = 400, yend = 4000,
            colour = palette_base_cc$black, size=.5) +
-  annotate("text", x = 1983, y = 4000,
+  annotate("text", x = 1984, y = 4000,
            label = "X-Files Premiers in 1993",
            size=4, family = "Roboto Mono",
            color = palette_base_cc$black, hjust = 1.03) +
@@ -69,14 +69,17 @@ exportPlot(plot, path = "../Graphics", name = "UFOSightings_PerYear", height = 4
 
 #Time of Day
 weekendmelted <- melt(weekend, id = c("Time", "Hour"))
-weekendmelted
 weekendmelted$variable <- factor(weekendmelted$variable,
                                  levels(weekendmelted$variable)[c(3,2,1,7,6,5,4)])
+
+#Determine color intervals
+cols <- 9
 div <- colorRampPalette(colors = c("#ffffff", palette_base_cc$reds['mid']), bias = 1)
+obs_quantiles <- quantile(weekendmelted$value, probs = seq(0, 1, 1/cols))
+obs_colors <- div(length(obs_quantiles) - 1)
+weekendmelted$interval <- findInterval(weekendmelted$value, obs_quantiles, all.inside = TRUE)
 
-v <- mean(weekendmelted$value)
-
-plot <- ggplot(weekendmelted, aes(x = Time,  y = variable, fill = value, height = 1.03, width = 1.03)) +
+plot <- ggplot(weekendmelted, aes(x = Time,  y = variable, fill = factor(interval), height = 1.03, width = 1.03)) +
   geom_tile() + 
   scale_y_discrete(expand = c(.01,0)) +
   scale_x_continuous(breaks = ((1:12)*2)-1,
@@ -84,7 +87,7 @@ plot <- ggplot(weekendmelted, aes(x = Time,  y = variable, fill = value, height 
                      labels = unique(weekendmelted$Hour)[(1:12)*2 -1]) +
   theme(axis.title.x = element_blank()) + 
   theme(axis.title.y = element_blank()) +
-  scale_fill_gradientn(colours = div(3), values = rescale(c(0,v/4, v, v*2), to = c(0,1))) +
+  scale_fill_manual(values = obs_colors) +
   coord_fixed(ratio=1) +
   guides(fill = "none") +
   labs(title = toupper("Aliens Working for the Weekend"),

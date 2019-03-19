@@ -6,30 +6,39 @@ gc()
 require(rgdal)
 require(ggplot2)
 require(ggmap)
-require(dhplot)
+require(PlotCC)
 require(svglite)
 
 #Load Data
-dcbq <- read.csv('Data/DCBQ_output.csv',
+dcbt <- read.csv('Data/dcbt_output.csv',
                  stringsAsFactors = F)
-dcbq <- dcbq[order(dcbq$final_rank),]
+dcbt <- dcbt[order(dcbt$final_rank),]
 
 #Load map
-loc <- apply(dcbq[,c('lng','lat')], 2, mean)
-dc <- get_googlemap(loc, zoom = 12,
-                    maptype = 'roadmap',
-                    scale = 2,
-                    size = c(500, 500))
+map_area <- estimate_map_area(longitude = dcbt$lng, latitude = dcbt$lat)
+dc <- get_mapbox_map(center = map_area$center,
+                   zoom = map_area$zoom + 1,
+                   size = c(1024,1024),
+                   user = "hsysinc",
+                   style = "cjle20z107ikb2rpddyozo8qf",
+                   access_token = "pk.eyJ1IjoiaHN5c2luYyIsImEiOiJjaXM5OHM0ZzEwMDVtMnpzNGNzZmRoMTE1In0.-9evnwPDQf6eK5DL1iRsqg")
 
-map <- ggmap(dc) + theme(axis.title = element_blank(), axis.text = element_blank()) +
-  geom_point(data = dcbq, aes(x = lng, y = lat), alpha = 1, size = 7, color = '#2196f3') +
-  geom_path(data = dcbq, aes(x = lng, y = lat), alpha = 1, size = 1, color = '#2196f3') +
+map <- add_map_registration(map = ggmap(dc),
+                                   center = map_area$center,
+                                   zoom = map_area$zoom + 1, 
+                            size = c(1024, 1024))+
+  labs(title = toupper("The Washington, DC Beer Trail"),
+       subtitle = toupper("The distance-optimized rank order for visiting all of DC's breweries"),
+       caption = 'Source: Brewery data compiled by Kate Rabinowitz') +
+  generate_theme(map = TRUE) +
+  geom_point(data = dcbt, aes(x = lng, y = lat),
+             alpha = 1, size = 10, color = create_palette()[2]) +
+  geom_path(data = dcbt, aes(x = lng, y = lat),
+              alpha = 1, size = 2, color = create_palette()[2]) +
   scale_shape_discrete(solid = FALSE) +
-  geom_text(data = dcbq, aes(x = lng, y = lat, label = final_rank),
+  geom_text(data = dcbt, aes(x = lng, y = lat, label = final_rank),
             color = '#f0f0f0', fontface = 'bold',
+            size = 6,
             vjust = .35, hjust = .5)
 
-
-svglite(file = 'dcbq.svg', width = 500/72, height = 500/72)
-map
-dev.off()
+export_plot(map, "Graphics", "DCBT", width = 1024, height = 1024, export_type = c("PNG","SVG"))

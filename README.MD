@@ -1,6 +1,6 @@
 # Articles
 
-This repository contains a selection of articles written as part of my personal blog and for [Greater Greater Washington](ggwash.org).
+This repository contains a selection of articles written as part of my personal blog and for [Greater Greater Washington](https://ggwash.org/).
 
 ## Structure
 

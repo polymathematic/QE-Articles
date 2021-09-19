@@ -101,4 +101,4 @@ Visualizations also tend to dehumanize subject matter. Data visualizations excel
 ## Additional Resources 
 * [Ezra Klein on visualization attribution](http://www.vox.com/2015/4/13/8405999/how-vox-aggregates)
 * [Nate Silver’s manifesto](http://fivethirtyeight.com/features/what-the-fox-knows/)
-* [Data journalism handbook (Beta)](http://datajournalismhandbook.org/1.0/en/)
+* [Data journalism handbook](http://datajournalismhandbook.org/1.0/en/)

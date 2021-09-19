@@ -84,7 +84,7 @@ When submitting the final visual the author should submit the visual as both a v
 
 ## Step 5: Creating a repository
 
-Savvy readers will rightly expect to view source data and any intervening steps used to create a visualization. As a best-practice, authors are urged to provide a link at the end of their article to the data and other intermediate products such as code. 
+Savvy readers will rightly expect to view source data and any intermediate transformations used to create a visualization. As a best-practice, authors are urged to provide a link at the end of their article to the data and other intermediate products such as code. 
 
 Github is the gold standard, for these repositories. For example, [here is 538’s extensive set of repositories](https://github.com/fivethirtyeight/data). For many advanced visuals, such as those built in R, Python, or D3.js, Github is strongly encouraged. 
 

@@ -25,8 +25,6 @@ Most data can be conveyed using one or more of these four simple visuals. More a
 
 Finally, it is worth noting that pie charts are never appropriate. Consider instead: point graphs or Pareto charts.
 
-For more on picking the right visual, see… by...
-
 ## Step 2: Finding the right data
 
 Data on many aspects of the greater DC area are available at several online repositories. This list is a good place to start:
@@ -39,8 +37,6 @@ Data on many aspects of the greater DC area are available at several online repo
 Data can also be obtained through Freedom of Information Act requests directly to the agency of interests. FOIA requests can be  time consuming and often involve repeated follow-ups. For more, see this guide on FOIA requests from the National Security Archive.
 
 If data is unavailable, the author should reconsider step 1, how to tell the story with data.
-
-For more on obtaining good data, see… by...
 
 ## Step 3: Transforming data
 
@@ -56,8 +52,6 @@ Regardless of the tool, the process of data transformation is the same. At a min
 * Formatted (Alter variables so they match the desired format  “1/1/2017” to “January 1, 2017”)
 
 Transforming data tends to be the most time consuming in the process. It is also the point where mistakes are most likely to occur. [[assistance?]]
-
-For more on transforming data, see… by...
 
 ## Step 4: Visualizing the Data
 
@@ -89,8 +83,6 @@ Savvy readers will rightly expect to view source data and any intermediate trans
 Github is the gold standard, for these repositories. For example, [here is 538’s extensive set of repositories](https://github.com/fivethirtyeight/data). For many advanced visuals, such as those built in R, Python, or D3.js, Github is strongly encouraged. 
 
 For simpler visuals, a public link to Google sheets is a convenient alternative. An embedded Tableau workbook is also an attractive option as it provides the underlying data by default.
-
-For an example of well-documented repositories, see… by...
 
 ## Limitations of Data Visualization
 

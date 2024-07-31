@@ -4,7 +4,7 @@ In February 2010, my platoon aided another group of U.S. soldiers and Iraqi Fede
 
 Personally, I wished they had told me this before I had spent two hours travelling with it sitting next to me in a Humvee.
 
-Later with the help of wikipedia, I discovered that [red mercury](http://en.wikipedia.org/wiki/Red_mercury) cannot be used for nuclear weapons or any other purpose. In fact, it does not seem to actually exist at all. By reputation, it is a powerful and much sought after substance that has uses in the production of fissionable materials or in the skin of stealth aircraft, and an indeterminate list of other applications. From my research, the exact properties of red mercury seem to vary depending on the needs of the one buying it and the imagination of the one selling it. It sounds ridiculous, but some people [seem convinced](http://news.bbc.co.uk/2/hi/uk_news/5176382.stm) it exists.
+Later with the help of Wikipedia, I discovered that [red mercury](http://en.wikipedia.org/wiki/Red_mercury) cannot be used for nuclear weapons or any other purpose. In fact, it does not seem to actually exist at all. By reputation, it is a powerful and much sought after substance that has uses in the production of fissionable materials or in the skin of stealth aircraft, and an indeterminate list of other applications. From my research, the exact properties of red mercury seem to vary depending on the needs of the one buying it and the imagination of the one selling it. It sounds ridiculous, but some people [seem convinced](http://news.bbc.co.uk/2/hi/uk_news/5176382.stm) it exists.
 
 How can this fictitious substance save the world? By introducing information asymmetry into a dangerous market.
 
@@ -22,7 +22,7 @@ The real world is more complicated. Used car quality varies continuously and acr
 
 Continuous quality and buyer risk aversion can be [modeled](http://www-users.york.ac.uk/~jdh1/micro%202/lectures/me34.htm) with a variation on the simple supply and demand model. In the model, the effects of asymmetric information are represented by a backward bending of the demand curve.
 
-![Adverse_selection](/Graphics/Adverse_selection.png)
+![Adverse_selection](/Red-Mercury/Graphics/Adverse_selection.png)
 
 This chart has four demand curves and four possible market equilibria representing four states of information asymmetry. D<sub>0</sub> is a normal demand curve, which assumes both buyer and seller have perfect information. Under these assumptions, the market reaches equilibrium at point A. D<sub>1</sub> and D<sub>2</sub> represent situations in which information asymmetry exists, but still allows the market to clear at the less efficient points, C, B, and D. Interestingly, D<sub>1</sub> has two stable equilibrium points suggesting that shocks in the quality of goods available on the market can cause permanent changes in equilibrium price and quantity. D<sub>3</sub> represents the point at which the effect of the information asymmetry is severe enough to prevent all transactions.
  
